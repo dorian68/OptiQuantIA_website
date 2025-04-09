@@ -99,7 +99,7 @@
         botMessage.style.background = "#e9ecef";
         botMessage.style.borderRadius = "5px";
         botMessage.style.margin = "5px 0";
-        botMessage.innerText = "Bot : ...";
+        botMessage.innerText = "OptiQuantIA : ...";
         chatBody.appendChild(botMessage);
         chatBody.scrollTop = chatBody.scrollHeight;
 
