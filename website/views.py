@@ -26,6 +26,7 @@ N8N_WEBHOOK_URL = "https://dorian68.app.n8n.cloud/webhook/ed35d1bb-ca5c-4bf0-adb
 @csrf_exempt  # Désactive temporairement la protection CSRF (utile si API externe)
 def chatbot_view(request):
     if request.method != "POST":
+        print(request.body)
         return JsonResponse({"error": "Méthode non autorisée"}, status=405)
 
     try:

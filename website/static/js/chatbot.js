@@ -99,13 +99,15 @@
         botMessage.style.background = "#e9ecef";
         botMessage.style.borderRadius = "5px";
         botMessage.style.margin = "5px 0";
-        botMessage.innerText = "OptiQuant IA : ...";
+        botMessage.innerText = "Bot : ...";
         chatBody.appendChild(botMessage);
         chatBody.scrollTop = chatBody.scrollHeight;
 
         fetch("/chatbot/", {
             method: "POST",
-            headers: { "Content-Type": "application/json" },
+            headers: { "Content-Type": "application/json",
+                "X-CSRFToken": getCookie("csrftoken")
+            },
             body: JSON.stringify({ message: userText })
         })
         .then(response => {
