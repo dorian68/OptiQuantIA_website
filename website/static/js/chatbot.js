@@ -128,6 +128,7 @@ function getCookie(name) {
         })
         .then(response => {
             if (!response.ok) {
+                console.log(response);
                 throw new Error("Réponse serveur non valide : " + response.status);
             }
             return response.json();  // ✅ Retourne les données JSON
