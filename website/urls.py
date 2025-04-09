@@ -4,7 +4,7 @@ from . import views
 from .views import chatbot_view
 
 urlpatterns = [
-    path("chatbot/", chatbot_view, name="chatbot"),
+    path("chatbot/", views.chatbot_view, name="chatbot"),
     path('', views.home2, name='home2'),
     path('articles/', views.articles, name='articles'),
     path('services/', views.services, name='services'),
