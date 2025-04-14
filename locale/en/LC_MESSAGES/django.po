@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-22 16:37+0100\n"
+"POT-Creation-Date: 2025-04-14 20:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1212,18 +1212,41 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
-#: .\website\templates\aPropos.html:60
-msgid "Optirisk Analytics - la liberté de pouvoir piloter votre avenir"
+#: .\website\templates\aPropos.html:82
+#, fuzzy
+#| msgid "Optirisk Analytics - la liberté de pouvoir piloter votre avenir"
+msgid "OptiQuant IA - la liberté de pouvoir piloter votre avenir"
 msgstr "Optirisk Analytics - be free to steer your future"
 
-#: .\website\templates\aPropos.html:67
+#: .\website\templates\aPropos.html:90
 msgid "Optirisk - Faire le choix de piloter votre futur"
 msgstr "Optirisk - choose to steer your future"
 
-#: .\website\templates\aPropos.html:68
+#: .\website\templates\aPropos.html:91
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Chez OptiRisk Analytics, nous croyons que chaque "
+#| "entreprise mérite de disposer des outils nécessaires\n"
+#| "                       pour piloter son avenir avec confiance. Nous "
+#| "mettons un point d’honneur à offrir des solutions sur mesure \n"
+#| "                       pour aider les entreprises à optimiser leurs "
+#| "performances financières, analyser leurs flux de trésorerie, \n"
+#| "                       et anticiper les risques potentiels.\n"
+#| "                        Notre objectif est simple : fournir aux "
+#| "dirigeants une vision claire et en temps réel de leurs indicateurs \n"
+#| "                        clés de performance, leur permettant de prendre "
+#| "des décisions stratégiques éclairées.\n"
+#| "                        Grâce à une expertise pointue combinant finance "
+#| "quantitative et innovation technologique, OptiRisk Analytics \n"
+#| "                        ne se contente pas de fournir des données. Nous "
+#| "transformons vos chiffres en opportunités, en plaçant \n"
+#| "                        l'autonomie et la transparence au cœur de notre "
+#| "démarche. \n"
+#| "                        "
 msgid ""
 "\n"
-"                        Chez OptiRisk Analytics, nous croyons que chaque "
+"                        Chez OptiQuant IA, nous croyons que chaque "
 "entreprise mérite de disposer des outils nécessaires\n"
 "                       pour piloter son avenir avec confiance. Nous mettons "
 "un point d’honneur à offrir des solutions sur mesure \n"
@@ -1235,7 +1258,7 @@ msgid ""
 "                        clés de performance, leur permettant de prendre des "
 "décisions stratégiques éclairées.\n"
 "                        Grâce à une expertise pointue combinant finance "
-"quantitative et innovation technologique, OptiRisk Analytics \n"
+"quantitative et innovation technologique, OptiQuant IA \n"
 "                        ne se contente pas de fournir des données. Nous "
 "transformons vos chiffres en opportunités, en plaçant \n"
 "                        l'autonomie et la transparence au cœur de notre "
@@ -1258,11 +1281,11 @@ msgstr ""
 "opportunities, by placing \n"
 "autonomy and transparency at the heart of ourapproach.\n"
 
-#: .\website\templates\aPropos.html:100
+#: .\website\templates\aPropos.html:123
 msgid "Un parcours professionnel riche et international"
 msgstr "A rich and international prefessional career"
 
-#: .\website\templates\aPropos.html:101
+#: .\website\templates\aPropos.html:124
 msgid ""
 "\n"
 "                        Après plusieurs années passées dans les salles de "
@@ -1298,11 +1321,11 @@ msgstr ""
 "transformation and management\n"
 "strategic.\n"
 
-#: .\website\templates\aPropos.html:127
+#: .\website\templates\aPropos.html:150
 msgid "Un double parcours académique d’excellence"
 msgstr "A dual academic path of excellence"
 
-#: .\website\templates\aPropos.html:128
+#: .\website\templates\aPropos.html:151
 msgid ""
 "\n"
 "                            Mon parcours académique reflète mon ambition de "
@@ -1336,16 +1359,224 @@ msgstr ""
 "the OptiRisk approach logo_optirisk_analytics\n"
 " "
 
-#: .\website\templates\article_automation_for_small_business.html:50
-#: .\website\templates\articles.html:50
+#: .\website\templates\article_automation_email_sending.html:181
+msgid "Automatisez vos envois de mail Outlook "
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:183
+msgid ""
+"Envoyer un email est la tache la plus commune que etes amené à effectuer "
+"dans votre activité professionnelle, mais saviez vous que votre ordinateur "
+"pouvait s'en charger à votre place ?"
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:193
+#: .\website\templates\article_automation_email_sending.html:276
+msgid ""
+"Automatisez vos envois d’e-mails sur Windows : Gagnez du temps et optimisez "
+"votre productivité !"
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:195
+msgid ""
+"\n"
+"          Dans un monde où l’efficacité est reine, l’automatisation des "
+"tâches répétitives \n"
+"          est devenue une nécessité. Que vous soyez une PME, un indépendant "
+"ou une grande \n"
+"          entreprise, envoyer des e-mails manuellement peut rapidement "
+"devenir chronophage \n"
+"          et source d’erreurs. Et si vous pouviez planifier et automatiser "
+"ces envois sur \n"
+"          Windows ? C’est possible, et c’est plus simple que vous ne le "
+"pensez !          \n"
+"          "
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:203
+msgid "Pourquoi automatiser l’envoi de vos e-mails ?"
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:207
+#, fuzzy
+#| msgid "Gain de temps"
+msgid "Gain de temps : "
+msgstr "Time saving"
+
+#: .\website\templates\article_automation_email_sending.html:207
+msgid "Plus besoin de rédiger et d’envoyer chaque e-mail manuellement."
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:210
+msgid "Réduction des erreurs humaines : "
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:210
+msgid "Fini les oublis et les erreurs de destinataires."
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:213
+msgid "Meilleure gestion des suivis : "
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:213
+msgid "Planifiez des relances automatiques sans y penser."
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:216
+#, fuzzy
+#| msgid "Automatisation et interactivité :"
+msgid "Augmentation de la productivité : "
+msgstr "Automation and interactivity :"
+
+#: .\website\templates\article_automation_email_sending.html:216
+msgid "Concentrez-vous sur des tâches à plus forte valeur ajoutée."
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:219
+msgid ""
+"Que ce soit pour l’envoi de factures, de newsletters, de rappels ou de "
+"notifications internes, un système d’automatisation bien conçu peut faire "
+"toute la différence."
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:220
+#: .\website\templates\article_automation_email_sending.html:277
+msgid "Comment automatiser l’envoi d’e-mails sur Windows ?"
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:223
+msgid "Utiliser des scripts PowerShell"
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:225
+msgid ""
+"\n"
+"              Windows permet d’envoyer des e-mails automatiquement en "
+"utilisant PowerShell, \n"
+"              un outil puissant intégré au système d’exploitation. Avec "
+"quelques lignes de code, \n"
+"              vous pouvez configurer un script qui envoie des e-mails à une "
+"liste de destinataires \n"
+"              à une heure précise.\n"
+"              "
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:234
+msgid "Planifier des tâches avec le Planificateur de tâches Windows"
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:236
+msgid ""
+"\n"
+"              Une fois votre script prêt, vous pouvez utiliser le "
+"Planificateur de tâches Windows \n"
+"              pour exécuter automatiquement l’envoi d’e-mails selon un "
+"calendrier défini (quotidien, \n"
+"              hebdomadaire, mensuel, etc.).\n"
+"              "
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:244
+msgid "Exploiter des outils tiers"
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:246
+msgid ""
+"\n"
+"              Si vous recherchez une solution plus intuitive, des logiciels "
+"comme Outlook avec \n"
+"              des macros VBA, Zapier, ou encore Automate.io permettent "
+"d’automatiser l’envoi \n"
+"              d’e-mails sans nécessiter de connaissances en programmation.\n"
+"              "
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:254
+#: .\website\templates\article_automation_email_sending.html:278
+msgid "Cas d'usage concrets"
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:256
+msgid "Gestion de la relation client : "
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:256
+msgid ""
+"Envoyer automatiquement des réponses ou des confirmations après une prise de "
+"contact."
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:257
+msgid "Suivi de facturation : "
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:257
+msgid ""
+"Relancer les clients automatiquement lorsqu’une facture est en attente de "
+"paiement."
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:258
+msgid "Alertes internes : "
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:258
+msgid ""
+"Notifier votre équipe des mises à jour importantes sans intervention "
+"manuelle."
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:260
+#: .\website\templates\article_automation_email_sending.html:279
+msgid "Besoin d’une solution sur mesure ?"
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:262
+msgid ""
+"\n"
+"          Chez OptiQuant IA, nous vous accompagnons dans l’automatisation de "
+"vos processus métier, y compris l’envoi d’e-mails automatisé sur \n"
+"          Windows. Nous développons des solutions sur mesure adaptées à "
+"votre entreprise, que ce soit via des scripts, des logiciels spécifiques "
+"ou \n"
+"          des intégrations avec vos outils existants.\n"
+"          "
+msgstr ""
+
+#: .\website\templates\article_automation_email_sending.html:268
+#, fuzzy
+#| msgid ""
+#| "Découvrez comment un tableau de bord personnalisé par OptiRisk Analytics "
+#| "peut transformer vos données en décisions stratégiques. Contactez-nous "
+#| "dès aujourd’hui pour une consultation gratuite !"
+msgid ""
+"Vous souhaitez optimiser vos envois d’e-mails et gagner en efficacité ? "
+"Contactez-nous dès aujourd’hui pour une consultation gratuite !"
+msgstr ""
+"Find out how OptiRisk Analytics tailor-made dashboardscan transform yours "
+"data to strategic decisions. Reach out to us for a free consultation as soon "
+"as today !"
+
+#: .\website\templates\article_automation_email_sending.html:274
+#: .\website\templates\article_automation_for_small_business.html:217
+#: .\website\templates\article_ml_for_small_business.html:247
+#: .\website\templates\article_risk_management.html:224
+#: .\website\templates\articles.html:309
+#: .\website\templates\corpoFinance.html:229
+#: .\website\templates\meanReversion.html:228
+#: .\website\templates\riskCalculator_frontPage.html:254
+msgid "Sommaire"
+msgstr ""
+
+#: .\website\templates\article_automation_for_small_business.html:181
+#: .\website\templates\articles.html:252 .\website\templates\articles.html:313
 msgid ""
 "Pourquoi un ingénieur peut complètement optimiser les performances de votre "
 "entreprise"
-msgstr ""
-"Why an engineer can completely optimize your "
-"company"
+msgstr "Why an engineer can completely optimize your company"
 
-#: .\website\templates\article_automation_for_small_business.html:52
+#: .\website\templates\article_automation_for_small_business.html:183
 msgid ""
 "Les ingénieurs ne se limitent pas à la construction de ponts ou à la "
 "conception de machines. Leur capacité à résoudre des problèmes complexes, à "
@@ -1353,64 +1584,65 @@ msgid ""
 "processus en fait des acteurs incontournables pour améliorer les "
 "performances des entreprises."
 msgstr ""
-"Engineers don't just build bridges or design "
-"machine design. Their ability to solve complex problems, "
-"to model systems and use data to optimize "
-"processes makes them key players in improving "
-"business performance."
+"Engineers don't just build bridges or design machine design. Their ability "
+"to solve complex problems, to model systems and use data to optimize "
+"processes makes them key players in improving business performance."
 
-#: .\website\templates\article_automation_for_small_business.html:60
+#: .\website\templates\article_automation_for_small_business.html:190
+#: .\website\templates\article_automation_for_small_business.html:219
 msgid "Les compétences clés des ingénieurs appliquées à l’entreprise"
 msgstr "Key engineering skills applied to business"
 
-#: .\website\templates\article_automation_for_small_business.html:62
+#: .\website\templates\article_automation_for_small_business.html:192
 msgid ""
 "Voici quelques-unes des forces qu’un ingénieur peut apporter à votre "
 "organisation :"
-msgstr "Here are just some of the strengths an engineer can bring to your "
-" organization"
+msgstr ""
+"Here are just some of the strengths an engineer can bring to your  "
+"organization"
 
-#: .\website\templates\article_automation_for_small_business.html:66
+#: .\website\templates\article_automation_for_small_business.html:196
 msgid "Approche analytique :"
 msgstr "Analytical approach :"
 
-#: .\website\templates\article_automation_for_small_business.html:66
+#: .\website\templates\article_automation_for_small_business.html:196
 msgid ""
 "Un ingénieur est formé pour décortiquer des systèmes complexes, identifier "
 "les inefficacités et proposer des solutions optimales."
 msgstr ""
-"An engineer is trained to dissect complex systems, identify "
-"inefficiencies and propose optimal solutions."
+"An engineer is trained to dissect complex systems, identify inefficiencies "
+"and propose optimal solutions."
 
-#: .\website\templates\article_automation_for_small_business.html:69
+#: .\website\templates\article_automation_for_small_business.html:199
 msgid "Optimisation des processus :"
 msgstr "Process optimization :"
 
-#: .\website\templates\article_automation_for_small_business.html:69
+#: .\website\templates\article_automation_for_small_business.html:199
 msgid ""
 " En automatisant certaines tâches ou en concevant des outils sur mesure, un "
 "ingénieur peut réduire les coûts et augmenter la productivité."
 msgstr ""
-"By automating certain tasks or designing bespoke tools, an "
-"engineer can reduce costs and increase productivity."
+"By automating certain tasks or designing bespoke tools, an engineer can "
+"reduce costs and increase productivity."
 
-#: .\website\templates\article_automation_for_small_business.html:72
+#: .\website\templates\article_automation_for_small_business.html:202
 msgid "Vision à long terme :"
 msgstr "Long-term vision :"
 
-#: .\website\templates\article_automation_for_small_business.html:72
+#: .\website\templates\article_automation_for_small_business.html:202
 msgid ""
 "Grâce à leur capacité à modéliser des scénarios futurs, les ingénieurs "
 "aident à prévoir les impacts des décisions actuelles sur l’entreprise."
 msgstr ""
-"Thanks to their ability to model future scenarios, engineers "
-"help predict the impact of current decisions on the company."
+"Thanks to their ability to model future scenarios, engineers help predict "
+"the impact of current decisions on the company."
 
-#: .\website\templates\article_automation_for_small_business.html:75
+#: .\website\templates\article_automation_for_small_business.html:205
+#: .\website\templates\article_automation_for_small_business.html:220
 msgid "Exemples concrets de valeur ajoutée"
 msgstr "Concrete examples of added value"
 
-#: .\website\templates\article_automation_for_small_business.html:77
+#: .\website\templates\article_automation_for_small_business.html:207
 msgid ""
 "Prenons l’exemple d’une entreprise locale de distribution. Un ingénieur peut "
 "concevoir un système qui suit en temps réel les ventes, les stocks et les "
@@ -1418,16 +1650,18 @@ msgid ""
 "optimiser l’ensemble de la chaîne d’approvisionnement."
 msgstr ""
 "Let's take the example of a local distribution company. An engineer can "
-"design a system that tracks sales, inventory and employee "
-"employee performance, offering valuable insights to "
-"optimize the entire supply chain."
+"design a system that tracks sales, inventory and employee employee "
+"performance, offering valuable insights to optimize the entire supply chain."
 
-#: .\website\templates\article_automation_for_small_business.html:79
-#: .\website\templates\service_analysis.html:178
-msgid "Pourquoi choisir OptiRisk Analytics ?"
+#: .\website\templates\article_automation_for_small_business.html:209
+#: .\website\templates\article_automation_for_small_business.html:221
+#: .\website\templates\service_analysis.html:193
+#, fuzzy
+#| msgid "Pourquoi choisir OptiRisk Analytics ?"
+msgid "Pourquoi choisir OptiQuant IA ?"
 msgstr "Why choose OptiRisk Analytics?"
 
-#: .\website\templates\article_automation_for_small_business.html:81
+#: .\website\templates\article_automation_for_small_business.html:211
 msgid ""
 "Notre équipe combine une expertise en ingénierie et en gestion financière "
 "pour vous offrir des solutions innovantes, adaptées à vos besoins "
@@ -1435,22 +1669,21 @@ msgid ""
 "taille, peut bénéficier des méthodologies et des outils utilisés par les "
 "grandes organisations."
 msgstr ""
-"Our team combines expertise in engineering and financial management "
-"to offer you innovative solutions tailored to your specific "
-"specific needs. We firmly believe that every company, regardless of its "
-"size, can benefit from the methodologies and tools used by "
-"large organizations."
+"Our team combines expertise in engineering and financial management to offer "
+"you innovative solutions tailored to your specific specific needs. We firmly "
+"believe that every company, regardless of its size, can benefit from the "
+"methodologies and tools used by large organizations."
 
-#: .\website\templates\article_ml_for_small_business.html:48
-#: .\website\templates\articles.html:78
+#: .\website\templates\article_ml_for_small_business.html:181
+#: .\website\templates\articles.html:278 .\website\templates\articles.html:315
 msgid ""
 "L'apport du machine learning aux petites et moyennes entreprises "
 "guadeloupéennes"
 msgstr ""
-"The contribution of machine learning to small and medium-sized businesses "
-"in Guadeloupe"
+"The contribution of machine learning to small and medium-sized businesses in "
+"Guadeloupe"
 
-#: .\website\templates\article_ml_for_small_business.html:49
+#: .\website\templates\article_ml_for_small_business.html:182
 msgid ""
 "En Guadeloupe, où les petites et moyennes entreprises (PME) représentent "
 "l'épine dorsale de l'économie locale, la compétitivité est souvent freinée "
@@ -1460,144 +1693,153 @@ msgid ""
 "pleinement leurs données pour mieux anticiper les risques, optimiser leurs "
 "processus et améliorer leurs performances."
 msgstr ""
-"In Guadeloupe, where small and medium-sized enterprises (SMEs) represent "
-"the backbone of the local economy, competitiveness is often hampered "
-"by limited resources, fluctuating markets and logistical "
-"logistical challenges. Machine learning offers a "
-"powerful solution for these companies, enabling them to exploit "
-"their data to better anticipate risks, optimize their "
-"processes and improve their performance."
+"In Guadeloupe, where small and medium-sized enterprises (SMEs) represent the "
+"backbone of the local economy, competitiveness is often hampered by limited "
+"resources, fluctuating markets and logistical logistical challenges. Machine "
+"learning offers a powerful solution for these companies, enabling them to "
+"exploit their data to better anticipate risks, optimize their processes and "
+"improve their performance."
 
-#: .\website\templates\article_ml_for_small_business.html:65
+#: .\website\templates\article_ml_for_small_business.html:209
+#: .\website\templates\article_ml_for_small_business.html:249
 msgid ""
 "Qu'est-ce que le machine learning et pourquoi est-il pertinent pour les PME ?"
-msgstr ""
-"What is machine learning and why is it relevant for SMEs?"
+msgstr "What is machine learning and why is it relevant for SMEs?"
 
-#: .\website\templates\article_ml_for_small_business.html:67
+#: .\website\templates\article_ml_for_small_business.html:211
 msgid ""
 "Le machine learning est une branche de l'intelligence artificielle qui "
 "permet aux ordinateurs d’apprendre à partir de données sans être "
 "explicitement programmés. Grâce à cette technologie, les entreprises "
 "peuvent :"
 msgstr ""
-"Machine learning is a branch of artificial intelligence that "
-"allows computers to learn from data without being explicitly programmed."
-"explicitly programmed. Thanks to this technology, companies "
-"can:"
+"Machine learning is a branch of artificial intelligence that allows "
+"computers to learn from data without being explicitly programmed.explicitly "
+"programmed. Thanks to this technology, companies can:"
 
-#: .\website\templates\article_ml_for_small_business.html:70
+#: .\website\templates\article_ml_for_small_business.html:214
 msgid ""
 "Analyser des volumes de données massifs pour en tirer des tendances et des "
 "prédictions."
-msgstr ""
-"Analyze massive volumes of data to derive trends and "
-"predictions"
+msgstr "Analyze massive volumes of data to derive trends and predictions"
 
-#: .\website\templates\article_ml_for_small_business.html:71
+#: .\website\templates\article_ml_for_small_business.html:215
 msgid ""
 "Automatiser des tâches répétitives, réduisant ainsi les coûts opérationnels."
 msgstr "Automate repetitive tasks, reducing operational costs."
 
-#: .\website\templates\article_ml_for_small_business.html:72
+#: .\website\templates\article_ml_for_small_business.html:216
 msgid ""
 "Améliorer la prise de décision grâce à des analyses basées sur des faits "
 "concrets."
-msgstr ""
-"Improve decision-making through fact-based analysis"
-"facts."
+msgstr "Improve decision-making through fact-based analysisfacts."
 
-#: .\website\templates\article_ml_for_small_business.html:74
+#: .\website\templates\article_ml_for_small_business.html:218
+#: .\website\templates\article_ml_for_small_business.html:250
 msgid "Applications concrètes en Guadeloupe"
 msgstr "Practical applications in Guadeloupe"
 
-#: .\website\templates\article_ml_for_small_business.html:76
+#: .\website\templates\article_ml_for_small_business.html:220
 msgid ""
 "Voici comment le machine learning peut transformer des secteurs spécifiques "
 "en Guadeloupe :"
 msgstr ""
-"Here's how machine learning can transform specific sectors "
-"in Guadeloupe:"
+"Here's how machine learning can transform specific sectors in Guadeloupe:"
 
-#: .\website\templates\article_ml_for_small_business.html:80
+#: .\website\templates\article_ml_for_small_business.html:224
 msgid "Distribution alimentaire :"
 msgstr "Food distribution :"
 
-#: .\website\templates\article_ml_for_small_business.html:80
+#: .\website\templates\article_ml_for_small_business.html:224
 msgid ""
 "Prédire les fluctuations de la demande en fonction des saisons, des jours "
 "fériés et des conditions météorologiques pour réduire les pertes."
 msgstr ""
-"Predict fluctuations in demand based on seasons, holidays "
-"and weather conditions to reduce losses."
+"Predict fluctuations in demand based on seasons, holidays and weather "
+"conditions to reduce losses."
 
-
-#: .\website\templates\article_ml_for_small_business.html:83
+#: .\website\templates\article_ml_for_small_business.html:227
 msgid "Tourisme :"
 msgstr "Tourism :"
 
-#: .\website\templates\article_ml_for_small_business.html:83
+#: .\website\templates\article_ml_for_small_business.html:227
 msgid ""
 "Anticiper les préférences des visiteurs en analysant leurs comportements en "
 "ligne pour proposer des offres sur mesure et optimiser les taux de "
 "réservation."
 msgstr ""
-"Anticipate visitor preferences by analyzing their online "
-"to propose customized offers and optimize "
-"booking rates."
+"Anticipate visitor preferences by analyzing their online to propose "
+"customized offers and optimize booking rates."
 
-#: .\website\templates\article_ml_for_small_business.html:86
+#: .\website\templates\article_ml_for_small_business.html:230
 msgid "Agriculture :"
 msgstr "Agriculture :"
 
-#: .\website\templates\article_ml_for_small_business.html:86
+#: .\website\templates\article_ml_for_small_business.html:230
 msgid ""
 "Détecter les maladies des cultures grâce à des modèles de reconnaissance "
 "d’images et optimiser l’utilisation des ressources naturelles."
 msgstr ""
-"Detect crop diseases using image recognition models "
-"and optimize the use of natural resources."
+"Detect crop diseases using image recognition models and optimize the use of "
+"natural resources."
 
-#: .\website\templates\article_ml_for_small_business.html:89
+#: .\website\templates\article_ml_for_small_business.html:233
+#: .\website\templates\article_ml_for_small_business.html:251
 msgid "Les défis à relever"
 msgstr "The challenges ahead"
 
-#: .\website\templates\article_ml_for_small_business.html:91
+#: .\website\templates\article_ml_for_small_business.html:235
+#: .\website\templates\riskCalculator_frontPage.html:219
+#, fuzzy
+#| msgid ""
+#| "Bien que prometteur, le machine learning nécessite une collecte de "
+#| "données rigoureuse et une formation des employés pour interpréter les "
+#| "résultats. Les PME peuvent cependant s’appuyer sur des experts comme "
+#| "OptiRisk Analytics pour surmonter ces obstacles."
 msgid ""
 "Bien que prometteur, le machine learning nécessite une collecte de données "
 "rigoureuse et une formation des employés pour interpréter les résultats. Les "
-"PME peuvent cependant s’appuyer sur des experts comme OptiRisk Analytics "
-"pour surmonter ces obstacles."
+"PME peuvent cependant s’appuyer sur des experts comme OptiQuant IA pour "
+"surmonter ces obstacles."
 msgstr ""
-"While promising, machine learning requires rigorous data collection "
-" and employee training to interpret the results. SMEs "
-"SMEs, however, can rely on experts like OptiRisk Analytics "
-"to overcome these obstacles."
+"While promising, machine learning requires rigorous data collection  and "
+"employee training to interpret the results. SMEs SMEs, however, can rely on "
+"experts like OptiRisk Analytics to overcome these obstacles."
 
-#: .\website\templates\article_ml_for_small_business.html:93
-msgid "Comment OptiRisk Analytics peut vous accompagner"
+#: .\website\templates\article_ml_for_small_business.html:237
+#: .\website\templates\article_ml_for_small_business.html:252
+#: .\website\templates\riskCalculator_frontPage.html:221
+#, fuzzy
+#| msgid "Comment OptiRisk Analytics peut vous accompagner"
+msgid "Comment OptiQuant IA peut vous accompagner"
 msgstr "How OptiRisk Analytics can help you”."
 
-#: .\website\templates\article_ml_for_small_business.html:95
+#: .\website\templates\article_ml_for_small_business.html:239
+#, fuzzy
+#| msgid ""
+#| "Chez OptiRisk Analytics, nous proposons des solutions adaptées aux "
+#| "spécificités des PME guadeloupéennes. Nous vous aidons à exploiter vos "
+#| "données existantes, à développer des outils sur mesure et à tirer parti "
+#| "des dernières avancées en intelligence artificielle pour transformer vos "
+#| "défis en opportunités."
 msgid ""
-"Chez OptiRisk Analytics, nous proposons des solutions adaptées aux "
-"spécificités des PME guadeloupéennes. Nous vous aidons à exploiter vos "
-"données existantes, à développer des outils sur mesure et à tirer parti des "
+"Chez OptiQuant IA, nous proposons des solutions adaptées aux spécificités "
+"des PME guadeloupéennes. Nous vous aidons à exploiter vos données "
+"existantes, à développer des outils sur mesure et à tirer parti des "
 "dernières avancées en intelligence artificielle pour transformer vos défis "
 "en opportunités."
 msgstr ""
-"At OptiRisk Analytics, we offer solutions tailored to the "
-" specificities of Guadeloupe's SMEs. We help you to exploit your "
-"existing data, develop customized tools and leverage the "
-"the latest advances in artificial intelligence to turn your challenges "
-"into opportunities."
+"At OptiRisk Analytics, we offer solutions tailored to the  specificities of "
+"Guadeloupe's SMEs. We help you to exploit your existing data, develop "
+"customized tools and leverage the the latest advances in artificial "
+"intelligence to turn your challenges into opportunities."
 
-#: .\website\templates\article_risk_management.html:48
-#: .\website\templates\articles.html:65
+#: .\website\templates\article_risk_management.html:180
+#: .\website\templates\articles.html:265 .\website\templates\articles.html:314
 msgid "Les bénéfices d'une bonne gestion financière"
 msgstr "The benefits of good financial management"
 
-#: .\website\templates\article_risk_management.html:50
+#: .\website\templates\article_risk_management.html:182
 msgid ""
 "La gestion financière est bien plus qu’une simple comptabilité : elle "
 "constitue la boussole qui oriente chaque décision stratégique d’une "
@@ -1606,124 +1848,131 @@ msgid ""
 "surtout dans un contexte économique souvent imprévisible comme celui de la "
 "Guadeloupe."
 msgstr ""
-"Financial management is much more than simple accounting: it "
-"is the compass that guides every strategic decision a company makes."
-"company's strategic decisions. For small and medium-sized enterprises (SMEs), effective financial management can make the difference between growth and decline."
-"can make the difference between growth and decline, "
-"especially in an often unpredictable economic context like that of "
-"Guadeloupe."
+"Financial management is much more than simple accounting: it is the compass "
+"that guides every strategic decision a company makes.company's strategic "
+"decisions. For small and medium-sized enterprises (SMEs), effective "
+"financial management can make the difference between growth and decline.can "
+"make the difference between growth and decline, especially in an often "
+"unpredictable economic context like that of Guadeloupe."
 
-#: .\website\templates\article_risk_management.html:57
+#: .\website\templates\article_risk_management.html:191
+#: .\website\templates\article_risk_management.html:226
 msgid "Quels sont les piliers d'une bonne gestion financière ?"
 msgstr "What are the pillars of good financial management?"
 
-#: .\website\templates\article_risk_management.html:59
+#: .\website\templates\article_risk_management.html:193
 msgid ""
 "Une gestion financière rigoureuse repose sur plusieurs axes fondamentaux :"
-msgstr "Rigorous financial management is based on several fundamental principles:"
+msgstr ""
+"Rigorous financial management is based on several fundamental principles:"
 
-#: .\website\templates\article_risk_management.html:62
+#: .\website\templates\article_risk_management.html:196
 msgid "Analyse de la trésorerie :"
 msgstr "Cash flow analysis :"
 
-#: .\website\templates\article_risk_management.html:62
+#: .\website\templates\article_risk_management.html:196
 msgid ""
 "Garantir que les flux de trésorerie sont suffisants pour couvrir les charges "
 "courantes et anticiper les périodes de creux."
 msgstr ""
-"Guarantee that cash flow is sufficient to cover ongoing "
-"and anticipate periods of low demand."
+"Guarantee that cash flow is sufficient to cover ongoing and anticipate "
+"periods of low demand."
 
-#: .\website\templates\article_risk_management.html:63
+#: .\website\templates\article_risk_management.html:197
 msgid "Planification stratégique :"
 msgstr "Strategic planning :"
 
-#: .\website\templates\article_risk_management.html:63
+#: .\website\templates\article_risk_management.html:197
 msgid ""
 "Identifier les investissements clés et aligner les ressources financières "
 "sur les objectifs à long terme."
 msgstr ""
-"Identify key investments and align financial resources "
-"with long-term objectives."
+"Identify key investments and align financial resources with long-term "
+"objectives."
 
-#: .\website\templates\article_risk_management.html:64
+#: .\website\templates\article_risk_management.html:198
 msgid "Contrôle des coûts :"
 msgstr "Cost control :"
 
-#: .\website\templates\article_risk_management.html:64
+#: .\website\templates\article_risk_management.html:198
 msgid "Réduire les dépenses inutiles et optimiser chaque euro dépensé."
 msgstr "Reduce unnecessary expenditure and optimize every euro spent."
 
-#: .\website\templates\article_risk_management.html:66
+#: .\website\templates\article_risk_management.html:200
+#: .\website\templates\article_risk_management.html:227
 msgid "Les risques d'une mauvaise gestion financière"
 msgstr "The risks of poor financial management"
 
-#: .\website\templates\article_risk_management.html:68
+#: .\website\templates\article_risk_management.html:202
 msgid "Ignorer ces piliers expose une entreprise à des risques majeurs :"
 msgstr "Ignoring these pillars exposes a company to major risks:"
 
-#: .\website\templates\article_risk_management.html:71
+#: .\website\templates\article_risk_management.html:205
 msgid ""
 "Une incapacité à honorer les paiements, conduisant à une perte de "
 "crédibilité auprès des fournisseurs."
 msgstr ""
-"An inability to honor payments, leading to a loss of "
-"credibility with suppliers."
+"An inability to honor payments, leading to a loss of credibility with "
+"suppliers."
 
-#: .\website\templates\article_risk_management.html:72
+#: .\website\templates\article_risk_management.html:206
 msgid ""
 "Une difficulté à obtenir des financements pour des projets de croissance."
-msgstr ""
-"A difficulty in obtaining financing for growth projects."
+msgstr "A difficulty in obtaining financing for growth projects."
 
-#: .\website\templates\article_risk_management.html:73
+#: .\website\templates\article_risk_management.html:207
 msgid ""
 "Un risque accru de faillite en cas de crise économique ou de baisse soudaine "
 "des revenus."
 msgstr ""
-"An increased risk of bankruptcy in the event of an economic crisis or a sudden drop "
-"in revenues."
+"An increased risk of bankruptcy in the event of an economic crisis or a "
+"sudden drop in revenues."
 
-#: .\website\templates\article_risk_management.html:75
+#: .\website\templates\article_risk_management.html:209
+#: .\website\templates\article_risk_management.html:228
 msgid "Les bénéfices concrets d’une gestion optimisée"
 msgstr "The concrete benefits of optimized management"
 
-#: .\website\templates\article_risk_management.html:77
+#: .\website\templates\article_risk_management.html:211
 msgid ""
 "Une entreprise qui maîtrise ses finances peut non seulement stabiliser son "
 "activité, mais aussi saisir de nouvelles opportunités de marché. Par "
 "exemple, une gestion proactive des coûts peut libérer des fonds pour "
 "investir dans des innovations ou élargir son portefeuille de clients."
 msgstr ""
-"A company that has its finances under control can not only stabilize its "
-" business, but also seize new market opportunities. For "
-"For example, proactive cost management can free up funds to "
-"invest in innovations or expand its customer portfolio."
+"A company that has its finances under control can not only stabilize its  "
+"business, but also seize new market opportunities. For For example, "
+"proactive cost management can free up funds to invest in innovations or "
+"expand its customer portfolio."
 
-#: .\website\templates\article_risk_management.html:79
+#: .\website\templates\article_risk_management.html:213
+#: .\website\templates\article_risk_management.html:229
 #, fuzzy
 #| msgid ""
 #| "OptiRisk Analytics, votre partenaire pour une croissance sans surprises."
-msgid "OptiRisk Analytics : votre allié pour une gestion financière optimale"
+msgid "OptiQuant IA : votre allié pour une gestion financière optimale"
 msgstr "OptiRisk Analytics, your partner for a growth with no surprises"
 
-#: .\website\templates\article_risk_management.html:81
+#: .\website\templates\article_risk_management.html:215
 msgid ""
 "Nous aidons les PME à structurer et à surveiller leurs finances grâce à des "
 "outils personnalisés. Nos solutions permettent de suivre en temps réel les "
 "indicateurs clés, de simuler des scénarios financiers et de prendre des "
 "décisions basées sur des données précises."
 msgstr ""
-"We help SMEs to structure and monitor their finances with "
-"customized tools. Our solutions enable you to track key "
-"key indicators, simulate financial scenarios and make "
-"decisions based on accurate data."
+"We help SMEs to structure and monitor their finances with customized tools. "
+"Our solutions enable you to track key key indicators, simulate financial "
+"scenarios and make decisions based on accurate data."
 
-#: .\website\templates\articles.html:26
+#: .\website\templates\articles.html:213
+msgid "Blog OptiQuant IA : Automatisez et Optimisez votre Entreprise"
+msgstr ""
+
+#: .\website\templates\articles.html:228 .\website\templates\articles.html:311
 msgid "La gestion financière"
 msgstr "Financial management"
 
-#: .\website\templates\articles.html:31
+#: .\website\templates\articles.html:233
 msgid ""
 "Une introduction aux principes fondamentaux de la gestion financière, "
 "incluant la planification, la gestion des flux de trésorerie, la maîtrise "
@@ -1731,24 +1980,25 @@ msgid ""
 "l’importance d’une bonne gestion financière pour assurer la stabilité et la "
 "croissance à long terme des entreprises."
 msgstr ""
-"An introduction to the fundamentals of financial management, "
-"including planning, cash flow management, cost control "
-"including planning, cash flow management, cost control and investment optimization. This article highlights "
-"the importance of good financial management in ensuring the long-term stability and "
-"long-term growth of companies."
+"An introduction to the fundamentals of financial management, including "
+"planning, cash flow management, cost control including planning, cash flow "
+"management, cost control and investment optimization. This article "
+"highlights the importance of good financial management in ensuring the long-"
+"term stability and long-term growth of companies."
 
-#: .\website\templates\articles.html:33 .\website\templates\articles.html:44
-#: .\website\templates\articles.html:57 .\website\templates\articles.html:72
-#: .\website\templates\articles.html:85 .\website\templates\home2.html:206
-#: .\website\templates\home2.html:227 .\website\templates\home2.html:258
+#: .\website\templates\articles.html:235 .\website\templates\articles.html:246
+#: .\website\templates\articles.html:259 .\website\templates\articles.html:272
+#: .\website\templates\articles.html:285 .\website\templates\articles.html:298
+#: .\website\templates\home2.html:249 .\website\templates\home2.html:270
+#: .\website\templates\home2.html:297
 msgid "Voir plus"
 msgstr "See more"
 
-#: .\website\templates\articles.html:39
+#: .\website\templates\articles.html:241 .\website\templates\articles.html:312
 msgid "Optimisation de la stratégie d'inversion de moyenne en HPC"
 msgstr "Optimization of the mean inversion strategy in HPC"
 
-#: .\website\templates\articles.html:43
+#: .\website\templates\articles.html:245
 msgid ""
 "Une exploration des stratégies d’investissement basées sur le concept de "
 "mean reversion (retour à la moyenne), combinées à des technologies de calcul "
@@ -1757,14 +2007,13 @@ msgid ""
 "learning, permet d’identifier des opportunités d’arbitrage et d’optimiser "
 "les performances en trading algorithmique."
 msgstr ""
-"An exploration of investment strategies based on the concept of "
-"mean reversion”, combined with high-performance computing "
-"high performance computing (HPC). The article presents how the use of "
-"advanced techniques, such as quantitative algorithms and machine "
-"learning, can identify arbitrage opportunities and optimize "
-"performance in algorithmic trading."
+"An exploration of investment strategies based on the concept of mean "
+"reversion”, combined with high-performance computing high performance "
+"computing (HPC). The article presents how the use of advanced techniques, "
+"such as quantitative algorithms and machine learning, can identify arbitrage "
+"opportunities and optimize performance in algorithmic trading."
 
-#: .\website\templates\articles.html:55
+#: .\website\templates\articles.html:257
 msgid ""
 "Une présentation des outils et techniques permettant aux entreprises "
 "d’anticiper, de mesurer et de gérer les risques financiers. L’article aborde "
@@ -1772,13 +2021,13 @@ msgid ""
 "montrant comment une gestion proactive peut limiter les pertes financières "
 "et préserver la santé économique de l’entreprise."
 msgstr ""
-"A presentation of the tools and techniques that enable companies "
-"to anticipate, measure and manage financial risks. The article covers "
-"market, credit, liquidity and operational risks, while "
-"showing how proactive management can limit financial losses "
-"and preserve the company's economic health."
+"A presentation of the tools and techniques that enable companies to "
+"anticipate, measure and manage financial risks. The article covers market, "
+"credit, liquidity and operational risks, while showing how proactive "
+"management can limit financial losses and preserve the company's economic "
+"health."
 
-#: .\website\templates\articles.html:70
+#: .\website\templates\articles.html:270
 msgid ""
 "Cet article met l’accent sur les avantages qu’une gestion financière "
 "efficace peut offrir aux entreprises, notamment : l’amélioration de la "
@@ -1789,12 +2038,12 @@ msgid ""
 msgstr ""
 "This article focuses on the benefits that effective financial management "
 "effective financial management can offer companies, including: improved "
-"profitability, better allocation of resources, reduced "
-"risks, and an enhanced ability to grow and adapt to "
-"economic changes. It is particularly useful for convincing "
-"executives of the importance of investing in professional solutions."
+"profitability, better allocation of resources, reduced risks, and an "
+"enhanced ability to grow and adapt to economic changes. It is particularly "
+"useful for convincing executives of the importance of investing in "
+"professional solutions."
 
-#: .\website\templates\articles.html:83
+#: .\website\templates\articles.html:283
 msgid ""
 "Un article qui explore comment le machine learning peut révolutionner les "
 "processus décisionnels des TPE et PME en Guadeloupe. Il explique comment ces "
@@ -1803,22 +2052,35 @@ msgid ""
 "des clients. L’article se concentre sur des exemples pratiques et "
 "accessibles pour des entreprises locales."
 msgstr ""
-"An article exploring how machine learning can revolutionize the "
-" decision-making processes of VSEs and SMEs in Guadeloupe. It explains how these "
-"technologies can be used to optimize sales, improve "
-"financial forecasts, reduce costs and better understand the needs "
-"of customers. The article focuses on practical and "
-"accessible for local businesses."
+"An article exploring how machine learning can revolutionize the  decision-"
+"making processes of VSEs and SMEs in Guadeloupe. It explains how these "
+"technologies can be used to optimize sales, improve financial forecasts, "
+"reduce costs and better understand the needs of customers. The article "
+"focuses on practical and accessible for local businesses."
+
+#: .\website\templates\articles.html:291
+msgid "l'automatisation d'envoi de E-mail réguliers "
+msgstr ""
+
+#: .\website\templates\articles.html:296
+msgid ""
+"Dans cet article nous arborderons l'un des piliers de l'automatisation de "
+"taches bureautiques, l'envoi programmé d'E-mails automatiques"
+msgstr ""
+
+#: .\website\templates\articles.html:316
+msgid "l'automatisation d'envoi de E-mail réguliers"
+msgstr ""
 
 #: .\website\templates\contact.html:23
 msgid "Envoyez-nous un message"
 msgstr "Send us a message"
 
-#: .\website\templates\corpoFinance.html:58
+#: .\website\templates\corpoFinance.html:190
 msgid "Les Principes Fondamentaux de la Gestion Financière"
 msgstr "Fundamental Principles of Financial Management"
 
-#: .\website\templates\corpoFinance.html:59
+#: .\website\templates\corpoFinance.html:191
 msgid ""
 "La gestion financière est l’un des piliers essentiels de la réussite et de "
 "la pérennité des entreprises. Elle englobe un ensemble de pratiques et de "
@@ -1828,19 +2090,19 @@ msgid ""
 "que la planification, la gestion des flux de trésorerie, la maîtrise des "
 "coûts et l’optimisation des investissements."
 msgstr ""
-"Financial management is one of the essential pillars of a company's success and "
-" the sustainability of companies. It encompasses a set of practices and "
+"Financial management is one of the essential pillars of a company's success "
+"and  the sustainability of companies. It encompasses a set of practices and "
 "strategies designed to optimize the use of financial resources in order "
-"ensure short-term stability and long-term growth. This "
-"article explores the fundamental principles of financial management, such "
-"such as planning, cash flow management, cost control "
-"cost control and investment optimization."
+"ensure short-term stability and long-term growth. This article explores the "
+"fundamental principles of financial management, such such as planning, cash "
+"flow management, cost control cost control and investment optimization."
 
-#: .\website\templates\corpoFinance.html:66
+#: .\website\templates\corpoFinance.html:197
+#: .\website\templates\corpoFinance.html:231
 msgid "La Planification Financière : Anticiper pour Mieux Décider"
 msgstr "Financial Planning: Anticipating for Better Decisions"
 
-#: .\website\templates\corpoFinance.html:67
+#: .\website\templates\corpoFinance.html:198
 msgid ""
 "La planification financière constitue la première étape vers une gestion "
 "efficace. Elle consiste à établir des objectifs financiers clairs et à "
@@ -1849,30 +2111,29 @@ msgid ""
 "prévoir les investissements futurs et d’aligner les décisions financières "
 "sur la stratégie globale de l’entreprise."
 msgstr ""
-"Financial planning is the first step towards effective "
-"effective management. It involves setting clear financial objectives and "
-"defining the means needed to achieve them. Rigorous "
-"rigorous planning enables companies to anticipate cash requirements, "
-"anticipate future investments, and align financial decisions "
-"with the company's overall strategy."
+"Financial planning is the first step towards effective effective management. "
+"It involves setting clear financial objectives and defining the means needed "
+"to achieve them. Rigorous rigorous planning enables companies to anticipate "
+"cash requirements, anticipate future investments, and align financial "
+"decisions with the company's overall strategy."
 
-#: .\website\templates\corpoFinance.html:68
+#: .\website\templates\corpoFinance.html:199
 msgid ""
 "Un bon plan financier intègre des prévisions réalistes basées sur des "
 "données historiques et des analyses de marché. Il inclut également des "
 "scénarios alternatifs pour faire face aux imprévus, garantissant ainsi une "
 "flexibilité opérationnelle."
 msgstr ""
-"A good financial plan incorporates realistic forecasts based on "
-"historical data and market analysis. It also includes "
-"alternative scenarios to deal with unforeseen events, thus guaranteeing "
-"operational flexibility."
+"A good financial plan incorporates realistic forecasts based on historical "
+"data and market analysis. It also includes alternative scenarios to deal "
+"with unforeseen events, thus guaranteeing operational flexibility."
 
-#: .\website\templates\corpoFinance.html:70
+#: .\website\templates\corpoFinance.html:201
+#: .\website\templates\corpoFinance.html:232
 msgid "La Gestion des Flux de Trésorerie : La Clé de la Stabilité"
 msgstr "Cash Flow Management: The Key to Stability"
 
-#: .\website\templates\corpoFinance.html:71
+#: .\website\templates\corpoFinance.html:202
 msgid ""
 "Les flux de trésorerie (ou cash flows) représentent les entrées et sorties "
 "d’argent d’une entreprise. Une gestion efficace de ces flux est cruciale "
@@ -1881,28 +2142,27 @@ msgid ""
 "tension, optimiser le calendrier des paiements et maximiser l’utilisation "
 "des excédents de trésorerie."
 msgstr ""
-"Cash flows” represent the inflows and outflows "
-" of a company's money. Effective management of these flows is crucial "
-"to avoid tight liquidity situations. By regularly monitoring "
-"cash flows, companies can identify periods of "
-"optimize payment schedules and maximize the use "
-"of cash surpluses."
+"Cash flows” represent the inflows and outflows  of a company's money. "
+"Effective management of these flows is crucial to avoid tight liquidity "
+"situations. By regularly monitoring cash flows, companies can identify "
+"periods of optimize payment schedules and maximize the use of cash surpluses."
 
-#: .\website\templates\corpoFinance.html:72
+#: .\website\templates\corpoFinance.html:203
 msgid ""
 "Des outils numériques, comme les tableaux de bord personnalisés ou les "
 "logiciels de gestion, permettent de suivre en temps réel les mouvements de "
 "trésorerie, offrant ainsi une meilleure visibilité et un contrôle accru."
 msgstr ""
-"Digital tools, such as customized dashboards or "
-"management software, make it possible to track cash movements in real time "
-"providing greater visibility and control."
+"Digital tools, such as customized dashboards or management software, make it "
+"possible to track cash movements in real time providing greater visibility "
+"and control."
 
-#: .\website\templates\corpoFinance.html:74
+#: .\website\templates\corpoFinance.html:205
+#: .\website\templates\corpoFinance.html:233
 msgid "La Maîtrise des Coûts : Une Gestion Prudente"
 msgstr "Cost Control: Prudent Management"
 
-#: .\website\templates\corpoFinance.html:75
+#: .\website\templates\corpoFinance.html:206
 msgid ""
 "La maîtrise des coûts est un autre aspect fondamental de la gestion "
 "financière. Cela implique l’analyse régulière des dépenses pour identifier "
@@ -1911,28 +2171,27 @@ msgid ""
 "maintenir la rentabilité, mais aussi de dégager des ressources pour financer "
 "des initiatives stratégiques."
 msgstr ""
-"Cost control is another fundamental aspect of "
-" financial management. This involves regular analysis of expenditure to identify "
-"inefficiencies and reduce unnecessary costs without compromising the quality "
-"of products or services. A proactive approach not only helps "
-"maintain profitability, but also free up resources to finance "
-"strategic initiatives."
+"Cost control is another fundamental aspect of  financial management. This "
+"involves regular analysis of expenditure to identify inefficiencies and "
+"reduce unnecessary costs without compromising the quality of products or "
+"services. A proactive approach not only helps maintain profitability, but "
+"also free up resources to finance strategic initiatives."
 
-#: .\website\templates\corpoFinance.html:76
+#: .\website\templates\corpoFinance.html:207
 msgid ""
 "L’élaboration de budgets détaillés et la mise en place d’indicateurs clés de "
 "performance (KPI) facilitent le suivi des coûts et la prise de décisions "
 "éclairées."
 msgstr ""
-"Detailed budgets and key performance indicators "
-"KPIs”” make it easier to monitor costs and make informed "
-"informed decisions."
+"Detailed budgets and key performance indicators KPIs”” make it easier to "
+"monitor costs and make informed informed decisions."
 
-#: .\website\templates\corpoFinance.html:78
+#: .\website\templates\corpoFinance.html:209
+#: .\website\templates\corpoFinance.html:234
 msgid "L’Optimisation des Investissements : Maximiser les Rendements"
 msgstr "Investment Optimization : Maximizing returns"
 
-#: .\website\templates\corpoFinance.html:79
+#: .\website\templates\corpoFinance.html:210
 msgid ""
 "Les décisions d’investissement jouent un rôle déterminant dans la croissance "
 "à long terme. Une évaluation rigoureuse des opportunités d’investissement, "
@@ -1940,73 +2199,73 @@ msgid ""
 "rendement interne (TRI), permet de choisir les projets offrant le meilleur "
 "rapport risque/rendement."
 msgstr ""
-"Investment decisions play a decisive role in long-term growth."
-"in the long term. A rigorous assessment of investment opportunities, "
-"based on tools such as net present value (NPV) or internal rate of return "
-"internal rate of return (IRR), enables us to select projects offering the best "
-"risk/return ratio."
+"Investment decisions play a decisive role in long-term growth.in the long "
+"term. A rigorous assessment of investment opportunities, based on tools such "
+"as net present value (NPV) or internal rate of return internal rate of "
+"return (IRR), enables us to select projects offering the best risk/return "
+"ratio."
 
-#: .\website\templates\corpoFinance.html:80
+#: .\website\templates\corpoFinance.html:211
 msgid ""
 "L’optimisation des investissements passe également par une diversification "
 "des actifs et une allocation stratégique des ressources pour minimiser les "
 "risques tout en maximisant les gains potentiels."
 msgstr ""
-"Optimizing investments also means diversifying "
-" of assets and strategic allocation of resources to minimize "
-"risks while maximizing potential gains."
+"Optimizing investments also means diversifying  of assets and strategic "
+"allocation of resources to minimize risks while maximizing potential gains."
 
-#: .\website\templates\corpoFinance.html:82
+#: .\website\templates\corpoFinance.html:213
+#: .\website\templates\corpoFinance.html:235
 msgid "L’Importance d’une Bonne Gestion Financière"
 msgstr "The Importance of Good Financial Management"
 
-#: .\website\templates\corpoFinance.html:83
+#: .\website\templates\corpoFinance.html:214
 msgid ""
 "Une gestion financière rigoureuse offre de nombreux avantages, notamment :"
 msgstr "Rigorous financial management offers many advantages, including :"
 
-#: .\website\templates\corpoFinance.html:85
+#: .\website\templates\corpoFinance.html:216
 msgid "La stabilité opérationnelle"
 msgstr "Operational stability"
 
-#: .\website\templates\corpoFinance.html:85
+#: .\website\templates\corpoFinance.html:216
 msgid ""
 " : en assurant une liquidité suffisante pour répondre aux besoins quotidiens."
 msgstr " : by ensuring sufficient liquidity to meet day-to-day needs."
 
-#: .\website\templates\corpoFinance.html:86
+#: .\website\templates\corpoFinance.html:217
 msgid "La capacité à saisir des opportunités"
 msgstr "The ability to seize opportunities"
 
-#: .\website\templates\corpoFinance.html:86
+#: .\website\templates\corpoFinance.html:217
 msgid " : grâce à une allocation optimale des ressources."
 msgstr " : thanks to optimal resource allocation."
 
-#: .\website\templates\corpoFinance.html:87
+#: .\website\templates\corpoFinance.html:218
 msgid "La résilience face aux crises"
 msgstr "Resilience in the face of crisis"
 
-#: .\website\templates\corpoFinance.html:87
+#: .\website\templates\corpoFinance.html:218
 msgid " : en s’appuyant sur une planification et des réserves solides."
 msgstr " : By relying on solid planning and reserves."
 
-#: .\website\templates\corpoFinance.html:88
+#: .\website\templates\corpoFinance.html:219
 msgid "La confiance des parties prenantes"
 msgstr "Stakeholder confidence"
 
-#: .\website\templates\corpoFinance.html:88
+#: .\website\templates\corpoFinance.html:219
 msgid " : en démontrant une gestion transparente et efficace."
 msgstr " : by demonstrating transparent and efficient management."
 
-#: .\website\templates\corpoFinance.html:90
+#: .\website\templates\corpoFinance.html:221
 msgid "Chez"
 msgstr "At"
 
-#: .\website\templates\corpoFinance.html:90
-msgid "OptiRisk Analytics"
-msgstr "OptiRisk Analytics"
+#: .\website\templates\corpoFinance.html:221
+msgid "OptiQuant IA"
+msgstr ""
 
-#: .\website\templates\corpoFinance.html:90
+#: .\website\templates\corpoFinance.html:221
 msgid ""
 ", nous croyons que chaque entreprise, quelle que soit sa taille, peut "
 "bénéficier d’une gestion financière bien pensée. Nos outils personnalisés et "
@@ -2015,32 +2274,39 @@ msgid ""
 "stratégiques."
 msgstr ""
 
-#: .\website\templates\corpoFinance.html:91
+#: .\website\templates\corpoFinance.html:222
 msgid ""
 "En adoptant les principes fondamentaux de la gestion financière, votre "
 "entreprise peut non seulement survivre, mais prospérer dans un monde en "
 "constante évolution."
 msgstr ""
-"By adopting the fundamentals of financial management, your "
-"business can not only survive, but thrive in a world of "
-"ever-changing world."
+"By adopting the fundamentals of financial management, your business can not "
+"only survive, but thrive in a world of ever-changing world."
 
-#: .\website\templates\home2.html:113
+#: .\website\templates\home2.html:145
 msgid "« La liberté de piloter votre futur financier »"
 msgstr "« The freedom to steer your financial future »"
 
-#: .\website\templates\home2.html:114
-msgid ""
-"OptiRisk Analytics, votre partenaire pour une croissance sans surprises."
+#: .\website\templates\home2.html:146
+#, fuzzy
+#| msgid ""
+#| "OptiRisk Analytics, votre partenaire pour une croissance sans surprises."
+msgid "OptiQuant IA, votre partenaire pour une croissance sans surprises."
 msgstr "OptiRisk Analytics, your partner for a growth with no surprises"
 
-#: .\website\templates\home2.html:125
+#: .\website\templates\home2.html:157
 msgid "Des solutions numériques innovantes"
 msgstr "Innovative digital solutions"
 
-#: .\website\templates\home2.html:126
+#: .\website\templates\home2.html:158
+#, fuzzy
+#| msgid ""
+#| "« Avec OptiRisk Analytics, transformez vos données financières en leviers "
+#| "de croissance. Anticipez les risques, optimisez vos ressources et pilotez "
+#| "l'avenir de votre entreprise avec des outils sur mesure combinant IA et "
+#| "gestion de risques. »"
 msgid ""
-"« Avec OptiRisk Analytics, transformez vos données financières en leviers de "
+"« Avec OptiQuant IA, transformez vos données financières en leviers de "
 "croissance. Anticipez les risques, optimisez vos ressources et pilotez "
 "l'avenir de votre entreprise avec des outils sur mesure combinant IA et "
 "gestion de risques. »"
@@ -2049,142 +2315,138 @@ msgstr ""
 "forecast your risks, optimize your ressources and steer your company's "
 "futures with tailor maid tools combining IA and risk management »"
 
-#: .\website\templates\home2.html:142
-msgid "Saisonnalité"
-msgstr "Seasonality"
-
-#: .\website\templates\home2.html:143
+#: .\website\templates\home2.html:174
+#, fuzzy
+#| msgid ""
+#| "Nous vous aidons à identifier les tendances intrèseques à votre activité "
+#| "pour que vous sachiez quand prendre les bonnes décisions"
 msgid ""
 "Nous vous aidons à identifier les tendances intrèseques à votre activité "
-"pour que vous sachiez quand prendre les bonnes décisions"
+"pour que vous sachiez rapidement ce qui coûte sans rapporter et quand "
+"prendre les bonnes décisions."
 msgstr ""
 "We help you identify trends relevant to your businessso you know when to "
 "make the right decisions"
 
-#: .\website\templates\home2.html:157
-msgid "Granularité"
-msgstr "Granularity"
+#: .\website\templates\home2.html:179
+msgid "Performance"
+msgstr ""
 
-#: .\website\templates\home2.html:158
+#: .\website\templates\home2.html:193
+#, fuzzy
+#| msgid ""
+#| "Les petits mouvements composent les grandes tendances. OptiRisk Analytics "
+#| "vous accompagne dans la décomposition des postes clés pour que vous "
+#| "compreniez les dynamiques de votre activité"
 msgid ""
-"Les petits mouvements composent les grandes tendances. OptiRisk Analytics "
-"vous accompagne dans la décomposition des postes clés pour que vous "
-"compreniez les dynamiques de votre activité"
+"Les petits mouvements composent les grandes tendances. OptiQuant IA vous "
+"accompagne dans la décomposition des postes clés afin de faire mieux, plus "
+"vite et avec moins, en automatisant ce qui peut l'etre "
 msgstr ""
 "Small movements make up big trends. OptiRisk Analyticssupports you in "
 "breaking down key positions so that youunderstand the dynamics of your "
 "business"
 
-#: .\website\templates\home2.html:172
-msgid "Pilotage"
-msgstr "Steering"
+#: .\website\templates\home2.html:198
+msgid "Intelligence Artificielle"
+msgstr ""
 
-#: .\website\templates\home2.html:173
+#: .\website\templates\home2.html:212
+#, fuzzy
+#| msgid ""
+#| "'Prévoir' est le mot d'ordre de OptiRisk Analytics, nous mettrons à votre "
+#| "disposition notre expertise en IA afin que vous ayez le controle."
 msgid ""
-"'Prévoir' est le mot d'ordre de OptiRisk Analytics, nous mettrons à votre "
-"disposition notre expertise en IA afin que vous ayez le controle."
+"'Prévoir' est le mot d'ordre de OptiQuant IA, nous mettrons à votre "
+"disposition notre expertise en IA afin que vous soyez capable de sécurier "
+"l'avenir proche de votre entreprise avec des prédictions et actions concrètes"
 msgstr ""
 "'Forecast' is the watchword of OptiRisk Analytics, we will put it to your "
 "benefitlay out our AI expertise so you’re in control."
 
-#: .\website\templates\home2.html:202
-msgid "Construisons votre bilan d’activité"
-msgstr "Let’s build your activity report"
-
-#: .\website\templates\home2.html:203
-msgid ""
-"Etablissons ensemble un état des lieux de la performance de votre entreprise"
-msgstr "Let's establish together an inventory of your company's performance"
-
-#: .\website\templates\home2.html:204
-msgid "Une revue régulière de vos scénarios de gains et pertes potentiels"
-msgstr "A regular review of your potential gain and loss scenarios"
-
-#: .\website\templates\home2.html:205
-msgid ""
-"Pilotons et surveillons régulièrement l'atteinte de vos objectifs grace à "
-"l'IA"
+#: .\website\templates\home2.html:217
+msgid "Trésorerie & Stock"
 msgstr ""
-"Let's manage and regularly monitor the achievement of your objectives thanks "
-"to AI"
 
-#: .\website\templates\home2.html:225
-#, fuzzy
-#| msgid "Construisons votre outil de gestion financière personnalisée"
-msgid "Construisons votre outil de gestion financière personnalisé"
-msgstr "Let's build your personalized financial management tool"
-
-#: .\website\templates\home2.html:226
-msgid ""
-"Qu'ils soient bureautique, sous Excel sur le web, sous mobile ou intégrant "
-"une intelligence artificielle, nous vous accompagnons dans le développemment "
-"de vos outils fait maison pour qu'ils correspondent a "
+#: .\website\templates\home2.html:247
+msgid "Pilotons votre performance"
 msgstr ""
-"Whether they are office, in Excel on the web, in mobile or integrating "
-"artificial intelligence, we support you in the developmentof your homemade "
-"tools so that they correspond to"
 
-#: .\website\templates\home2.html:226
-msgid "vos besoins"
-msgstr "your needs"
-
-#: .\website\templates\home2.html:252
-#: .\website\templates\service_data_management.html:21
-msgid ""
-"Construisons l'architecture de collecte et gestion des données interne de "
-"votre entreprise"
+#: .\website\templates\home2.html:248
+msgid "Identifiez ce qui coûte sans rapporter."
 msgstr ""
-"Let's build together your company internal data management and data "
-"collection architecture"
 
-#: .\website\templates\home2.html:253
+#: .\website\templates\home2.html:248
 msgid ""
-"Etablissons ensemble une architecture sécurisé pour la gestion de vos données"
+"Grâce à un diagnostic précis de votre rentabilité, notre solution vous aide "
+"à détecter les pertes, optimiser vos marges et prendre des décisions "
+"éclairées. Visualisez vos indicateurs clés, recevez des alertes "
+"intelligentes et projetez vos performances à venir grâce à nos tableaux de "
+"bord interactifs et nos simulations stratégiques."
 msgstr ""
-"Let's establish together a secure architecture for the management of your "
-"data"
 
-#: .\website\templates\home2.html:254
-msgid "Installation d’une base de données interne (Sql serveur, …)"
-msgstr "Internal database installation (Sql server, ... )"
+#: .\website\templates\home2.html:268
+msgid "Developpons votre outil d'automatisation métier sur mesure grace à l'IA"
+msgstr ""
 
-#: .\website\templates\home2.html:255
-msgid "Interface Excel"
-msgstr "Excel interface"
+#: .\website\templates\home2.html:269
+msgid "Libérez du temps, réduisez les erreurs, et boostez votre efficacité."
+msgstr ""
 
-#: .\website\templates\home2.html:256
-msgid "Outil d’intégration d’inputs "
-msgstr "Input integration tool"
+#: .\website\templates\home2.html:269
+msgid ""
+"Nous analysons vos process et développons un outil personnalisé "
+"d'automatisation, basé sur l'IA ou la bureautique avancée. Fini les taches "
+"répétitives : place à la valeur ajoutée."
+msgstr ""
 
-#: .\website\templates\home2.html:257
-msgid "Collecte des données "
-msgstr "Data collection"
+#: .\website\templates\home2.html:295
+msgid ""
+"Obtenez un simulateur de trésorerie et de stocks adapté à votre activité"
+msgstr ""
 
-#: .\website\templates\index.html:32
+#: .\website\templates\home2.html:296
+msgid "Pilotez l'aenir de votre entreprise avec des prévisions concrètes."
+msgstr ""
+
+#: .\website\templates\home2.html:296
+msgid ""
+"Grâce à notre outil prédictif, vous visualisez vos flux de trésorerie, "
+"anticipez vos besoins en stock, et prenez des décisions éclairées. Moins de "
+"surprises, plus de contrôle."
+msgstr ""
+
+#: .\website\templates\index.html:33
 msgid "A propos"
 msgstr "About"
 
-#: .\website\templates\index.html:35
-msgid "Simulateur de risques"
+#: .\website\templates\index.html:36
+#, fuzzy
+#| msgid "Simulateur de risques"
+msgid "Simulateur d'optimisation"
 msgstr "Risk simulator"
 
-#: .\website\templates\index.html:39
+#: .\website\templates\index.html:40
 msgid "Blog"
 msgstr "Blog"
 
-#: .\website\templates\index.html:42
+#: .\website\templates\index.html:43
 msgid "Tarifs"
 msgstr "Rates"
 
-#: .\website\templates\index.html:45
+#: .\website\templates\index.html:46
 msgid "Contact"
 msgstr "Contact"
 
-#: .\website\templates\meanReversion.html:48
-msgid "Optimisation de la stratégie "
-msgstr "Strategy optimization"
+#: .\website\templates\meanReversion.html:182
+#, fuzzy
+#| msgid "Optimisation de la stratégie d'inversion de moyenne en HPC"
+msgid ""
+"Optimisation de la stratégie « Inversion de moyenne » en environnement haute "
+"performance"
+msgstr "Optimization of the mean inversion strategy in HPC"
 
-#: .\website\templates\meanReversion.html:49
+#: .\website\templates\meanReversion.html:183
 msgid ""
 "Dans cet article, nous explorons la stratégie de mean reversion appliquée "
 "aux marchés financiers, et son implémentation en Python dans un "
@@ -2192,53 +2454,62 @@ msgid ""
 "démontrons également comment backtester et optimiser cette stratégie pour "
 "maximiser ses performances."
 msgstr ""
-"In this article, we explore the mean reversion strategy applied "
-"to financial markets, and its implementation in Python in a "
-"high performance computing (HPC) environment using Dask. We also "
-"also demonstrate how to backtest and optimize this strategy to "
-"maximize its performance."
+"In this article, we explore the mean reversion strategy applied to financial "
+"markets, and its implementation in Python in a high performance computing "
+"(HPC) environment using Dask. We also also demonstrate how to backtest and "
+"optimize this strategy to maximize its performance."
 
-#: .\website\templates\meanReversion.html:57
+#: .\website\templates\meanReversion.html:190
+#: .\website\templates\meanReversion.html:230
 msgid "1. Stratégie Mean Reversion"
 msgstr "1. Mean Reversion strategy"
 
-#: .\website\templates\meanReversion.html:58
+#: .\website\templates\meanReversion.html:191
 msgid "Qu'est-ce que c'est?"
 msgstr "What is it?"
 
-#: .\website\templates\meanReversion.html:62
+#: .\website\templates\meanReversion.html:192
+msgid ""
+"La stratégie mean reversion repose sur l’idée que les prix des actifs "
+"financiers fluctuent autour d’une moyenne à long terme. Lorsqu’un prix "
+"s’éloigne trop de cette moyenne, la stratégie suppose un retour probable "
+"vers la moyenne, offrant des opportunités d'achat (survente) ou de vente "
+"(surachat)."
+msgstr ""
+
+#: .\website\templates\meanReversion.html:193
 msgid "Définition de la stratégie"
 msgstr "Strategy definition"
 
-#: .\website\templates\meanReversion.html:64
+#: .\website\templates\meanReversion.html:195
 msgid "Pour implémenter une stratégie de mean reversion :"
 msgstr "To implement a mean reversion strategy:"
 
-#: .\website\templates\meanReversion.html:65
+#: .\website\templates\meanReversion.html:196
 msgid ""
 "Définir la moyenne de référence : Cela peut être une moyenne mobile (SMA/"
 "EMA) ou une valeur statistique calculée."
 msgstr ""
-"Define the reference average: This can be a moving average (SMA/"
-"EMA) or a calculated statistical value."
+"Define the reference average: This can be a moving average (SMA/EMA) or a "
+"calculated statistical value."
 
-#: .\website\templates\meanReversion.html:68
+#: .\website\templates\meanReversion.html:197
+msgid "Déterminer les signaux d'achat ou de vente : "
+msgstr ""
+
+#: .\website\templates\meanReversion.html:199
 msgid ""
 "Achat : Lorsque le prix est significativement en dessous de la moyenne (sous-"
 "évalué)."
-msgstr ""
-"Buy: When the price is significantly below average (under"
-"evaluated)."
+msgstr "Buy: When the price is significantly below average (underevaluated)."
 
-#: .\website\templates\meanReversion.html:69
+#: .\website\templates\meanReversion.html:200
 msgid ""
 "Vente : Lorsque le prix est significativement au-dessus de la moyenne (sur-"
 "évalué)."
-msgstr ""
-"Sale: When the price is significantly above average (over-"
-"evaluated)."
+msgstr "Sale: When the price is significantly above average (over-evaluated)."
 
-#: .\website\templates\meanReversion.html:72
+#: .\website\templates\meanReversion.html:203
 msgid ""
 "Ajouter des filtres pour renforcer les signaux, comme le RSI, les Bandes de "
 "Bollinger, ou les volumes."
@@ -2246,76 +2517,283 @@ msgstr ""
 "Add filters to reinforce signals, such as RSI, Bollinger Bands or volume."
 "Bollinger Bands, or volumes."
 
-#: .\website\templates\meanReversion.html:75
+#: .\website\templates\meanReversion.html:206
 msgid "Indicateurs couramment utilisés :"
 msgstr "Commonly used indicators :"
 
-#: .\website\templates\meanReversion.html:76
+#: .\website\templates\meanReversion.html:207
 msgid ""
 "RSI (Relative Strength Index) : Mesure la vitesse et l’amplitude des "
 "mouvements de prix pour détecter des niveaux de surachat/survente."
 msgstr ""
-"RSI (Relative Strength Index): Measures the speed and amplitude of "
-"price movements to detect overbought/oversold levels."
+"RSI (Relative Strength Index): Measures the speed and amplitude of price "
+"movements to detect overbought/oversold levels."
 
-#: .\website\templates\meanReversion.html:77
+#: .\website\templates\meanReversion.html:208
 msgid ""
 "Moyennes mobiles : Les SMA et EMA sont essentielles pour définir la moyenne "
 "de référence."
 msgstr ""
-"Moving averages: SMA and EMA are essential for defining the reference average "
+"Moving averages: SMA and EMA are essential for defining the reference "
+"average "
 
-
-#: .\website\templates\meanReversion.html:78
+#: .\website\templates\meanReversion.html:209
 msgid ""
 "Bandes de Bollinger : Identifient les écarts significatifs autour de la "
 "moyenne."
-msgstr ""
-"Bollinger Bands: Identify significant deviations around the "
-"average."
+msgstr "Bollinger Bands: Identify significant deviations around the average."
 
-#: .\website\templates\meanReversion.html:79
+#: .\website\templates\meanReversion.html:210
 msgid "Volumes : Utilisés pour confirmer la validité des signaux."
 msgstr "Volumes: Used to confirm the validity of signals."
 
-#: .\website\templates\meanReversion.html:80
+#: .\website\templates\meanReversion.html:211
 msgid "ATX (Average True Range) : Indique la volatilité du marché."
 msgstr "ATX (Average True Range): Indicates market volatility."
 
-#: .\website\templates\meanReversion.html:83
+#: .\website\templates\meanReversion.html:214
+#: .\website\templates\meanReversion.html:231
 msgid "2. Configuration de l'environnement HPC"
 msgstr "2. Configuring the HPC environment"
 
-#: .\website\templates\meanReversion.html:89
+#: .\website\templates\meanReversion.html:215
+msgid ""
+"Dask est une bibliothèque Python conçue pour le calcul distribué. Elle "
+"permet de traiter efficacement de grandes quantités de données en exploitant "
+"le multi-threading ou le multi-processing."
+msgstr ""
+
+#: .\website\templates\meanReversion.html:220
 msgid "Sources :"
 msgstr "Sources"
 
-#: .\website\templates\riskCalculator.html:24
-msgid "EN CONSTRUCTION"
-msgstr "BUILDING"
-
-#: .\website\templates\riskCalculator.html:26
+#: .\website\templates\process.html:21
 msgid "What If..."
 msgstr ""
 
-#: .\website\templates\riskCalculator.html:27
+#: .\website\templates\process.html:22
 #, python-format
 msgid "We Decrease Our Return Rate (%%) to:"
 msgstr ""
 
-#: .\website\templates\service_analysis.html:29
-msgid "Gestion des risques et optimisation de vos performances financières"
-msgstr "Managing risk and optimizing your financial performance"
+#: .\website\templates\riskCalculator.html:29
+msgid "Choix du report à afficher"
+msgstr ""
 
-#: .\website\templates\service_analysis.html:40
+#: .\website\templates\riskCalculator.html:30
+msgid "Sélectionner votre reporting :"
+msgstr ""
+
+#: .\website\templates\riskCalculator.html:37
+msgid "Chargez un fichier CSV pour le traitement"
+msgstr ""
+
+#: .\website\templates\riskCalculator.html:49
+#: .\website\templates\riskCalculator.html:134
+msgid "Chargement en cours..."
+msgstr ""
+
+#: .\website\templates\riskCalculator.html:95
+msgid "Créer un tableau croisé dynamique"
+msgstr ""
+
+#: .\website\templates\riskCalculator.html:102
+#, fuzzy
+#| msgid "Collecte des données "
+msgid "Sélectionner les colonnes :"
+msgstr "Data collection"
+
+#: .\website\templates\riskCalculator.html:110
+msgid "Sélectionner les lignes :"
+msgstr ""
+
+#: .\website\templates\riskCalculator.html:118
+msgid "Sélectionner les valeurs :"
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:181
+msgid "OptiQuant IA vous accompagne dans vos previsions"
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:190
+msgid "Découvrez nos solutions"
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:191
+msgid "Reporting de performance – Suivez et optimisez vos KPI"
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:193
+msgid ""
+"\n"
+"          Une gestion efficace passe par une visibilité précise sur vos "
+"indicateurs clés. Notre outil génère\n"
+"          des reportings dynamiques qui transforment vos données financières "
+"en insights exploitables pour \n"
+"          améliorer votre rentabilité et affiner vos prises de "
+"décision.      \n"
+"        "
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:199
+msgid "Types de reporting disponibles"
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:202
+msgid "Reporting financier global "
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:202
+msgid ": bilan, compte de résultat et flux de trésorerie en temps réel."
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:205
+#, fuzzy
+#| msgid "Analyse de rentabilité"
+msgid "Analyse de rentabilité "
+msgstr "Profitability analysis"
+
+#: .\website\templates\riskCalculator_frontPage.html:205
+msgid ""
+": suivi des marges, des coûts opérationnels et des performances par produit/"
+"service."
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:208
+msgid "Suivi de trésorerie et liquidité "
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:208
+msgid ""
+" : projections, cash flows prévisionnels et analyse des besoins en "
+"financement."
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:211
+msgid "Reporting de risque "
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:211
+msgid ""
+" : indicateurs d’exposition aux risques de marché, de crédit et de liquidité."
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:214
+msgid "Reporting personnalisé "
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:214
+msgid " : tableaux de bord sur mesure adaptés à vos besoins stratégiques."
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:217
+msgid "Simulateur de risques – Anticipez et maîtrisez vos risques"
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:223
+msgid ""
+" \n"
+"          Au-delà du suivi de la performance, il est essentiel d’anticiper "
+"les scénarios \n"
+"          pouvant impacter votre activité. Grâce à des modèles quantitatifs "
+"avancés et des \n"
+"          algorithmes de simulation, notre outil vous aide à identifier les "
+"risques majeurs \n"
+"          et à tester différentes stratégies.  \n"
+"        "
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:230
+msgid "Comment l’utiliser ?"
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:233
+msgid "Saisissez vos paramètres "
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:233
+msgid ""
+" : variables économiques, flux de trésorerie, exposition aux taux d’intérêt…"
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:236
+msgid "Choisissez un scénario "
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:236
+msgid ""
+" : fluctuations de marché, stress tests, impact de décisions stratégiques…"
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:239
+msgid "Obtenez une analyse détaillée "
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:239
+msgid ""
+" : visualisez les risques sous forme de graphiques interactifs et rapports "
+"approfondis."
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:242
+msgid "Prenez des décisions éclairées "
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:242
+msgid ""
+" : ajustez vos stratégies grâce aux prévisions et recommandations de notre "
+"outil."
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:246
+msgid "Passez à l’action dès maintenant !"
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:247
+msgid ""
+"Testez notre solution et prenez le contrôle de votre gestion financière avec "
+"OptiQuant IA."
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:256
+#, fuzzy
+#| msgid "Simulateur de risques"
+msgid "Reporting de performance & Simulateur de risques"
+msgstr "Risk simulator"
+
+#: .\website\templates\riskCalculator_frontPage.html:257
+msgid "Reporting de performance"
+msgstr ""
+
+#: .\website\templates\riskCalculator_frontPage.html:258
+msgid "Simulateur de risques"
+msgstr "Risk simulator"
+
+#: .\website\templates\service_analysis.html:33
+msgid "Pilotage de votre performance"
+msgstr ""
+
+#: .\website\templates\service_analysis.html:44
 msgid "Tableaux de bord personnalisés : Une gestion financière éclairée"
 msgstr "Customized dashboards: Informed financial management"
 
-#: .\website\templates\service_analysis.html:42
+#: .\website\templates\service_analysis.html:46
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                                Chez OptiRisk Analytics, nous croyons "
+#| "qu’une prise de décision efficace repose sur\n"
+#| "                                des données claires et pertinentes. C’est "
+#| "pourquoi nous proposons des tableaux de\n"
+#| "                                bord personnalisés, adaptés aux besoins "
+#| "spécifiques des petites et moyennes entreprises, \n"
+#| "                                pour optimiser leur gestion financière et "
+#| "surveiller leurs performances en temps réel.\n"
+#| "                                "
 msgid ""
 "\n"
-"                                Chez OptiRisk Analytics, nous croyons qu’une "
-"prise de décision efficace repose sur\n"
+"                                Chez OptiQuant IA, nous croyons qu’une prise "
+"de décision efficace repose sur\n"
 "                                des données claires et pertinentes. C’est "
 "pourquoi nous proposons des tableaux de\n"
 "                                bord personnalisés, adaptés aux besoins "
@@ -2325,41 +2803,39 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"At OptiRisk Analytics, we believe that "
-"effective decision-making relies on"
-"clear and relevant data. This is "
-"why we offer customized dashboards"
-"dashboards tailored to the specific needs"
-"specific needs of small and medium-sized businesses, \n"
-"to optimize their financial management and "
-"monitor their performance in real time."
+"At OptiRisk Analytics, we believe that effective decision-making relies "
+"onclear and relevant data. This is why we offer customized "
+"dashboardsdashboards tailored to the specific needsspecific needs of small "
+"and medium-sized businesses, \n"
+"to optimize their financial management and monitor their performance in real "
+"time."
 
-#: .\website\templates\service_analysis.html:61
+#: .\website\templates\service_analysis.html:65
 msgid "Des outils modernes et intuitifs :"
 msgstr "Modern, intuitive tools:"
 
-#: .\website\templates\service_analysis.html:62
+#: .\website\templates\service_analysis.html:66
 msgid "Automatisation et interactivité :"
 msgstr "Automation and interactivity :"
 
-#: .\website\templates\service_analysis.html:65
+#: .\website\templates\service_analysis.html:69
 msgid "Comparaisons sectorielles :"
 msgstr "Sector comparisons :"
 
-#: .\website\templates\service_analysis.html:66
+#: .\website\templates\service_analysis.html:70
 msgid ""
 "Comparez vos performances avec celles d’entreprises similaires pour vous "
 "situer dans votre secteur."
 msgstr ""
-"Compare your performance with that of similar companies to "
-"position yourself in your sector."
+"Compare your performance with that of similar companies to position yourself "
+"in your sector."
 
-#: .\website\templates\service_analysis.html:68
+#: .\website\templates\service_analysis.html:72
 msgid "Une expertise locale adaptée aux PME/TPE en Guadeloupe :"
 msgstr ""
 "Local expertise tailored to small and medium-sized businesses in Guadeloupe:"
 
-#: .\website\templates\service_analysis.html:69
+#: .\website\templates\service_analysis.html:73
 msgid ""
 "\n"
 "                                        Nous comprenons les spécificités "
@@ -2371,170 +2847,558 @@ msgid ""
 "                                    "
 msgstr ""
 "\n"
-"We understand the specific economic and fiscal"
-" economic and fiscal specificities of Guadeloupe, such as the impact of dock dues "
-"or import/export issues."
-"Our in-depth knowledge of the "
-"local context enables us to offer solutions tailored to the needs "
-"of Guadeloupean companies."
-  
+"We understand the specific economic and fiscal economic and fiscal "
+"specificities of Guadeloupe, such as the impact of dock dues or import/"
+"export issues.Our in-depth knowledge of the local context enables us to "
+"offer solutions tailored to the needs of Guadeloupean companies."
 
-#: .\website\templates\service_analysis.html:84
+#: .\website\templates\service_analysis.html:88
+#: .\website\templates\service_dev_tool.html:89
 msgid "Analyse de rentabilité"
 msgstr "Profitability analysis"
 
-#: .\website\templates\service_analysis.html:91
+#: .\website\templates\service_analysis.html:95
+#: .\website\templates\service_dev_tool.html:96
 msgid ""
 "Évaluation précise des marges et de la rentabilité par produit et par client."
-msgstr "Precise evaluation of margins and profitability by product and customer."
+msgstr ""
+"Precise evaluation of margins and profitability by product and customer."
 
-#: .\website\templates\service_analysis.html:97
+#: .\website\templates\service_analysis.html:101
+#: .\website\templates\service_dev_tool.html:102
 msgid ""
 "Identification des produits et services les plus rentables pour une "
 "allocation optimale des ressources."
 msgstr ""
-"Identification of the most profitable products and services for "
-"optimal allocation of resources."
+"Identification of the most profitable products and services for optimal "
+"allocation of resources."
 
 #: .\website\templates\service_analysis.html:106
-msgid "Optimisation des coûts"
-msgstr "Optimizing costs"
+#: .\website\templates\service_dev_tool.html:107
+msgid ""
+"Détection des pertes ( marges dégradés, couts récurents, inefficiences de "
+"stocks)"
+msgstr ""
 
-#: .\website\templates\service_analysis.html:113
-#: .\website\templates\service_analysis.html:136
+#: .\website\templates\service_analysis.html:115
+#: .\website\templates\service_dev_tool.html:116
+msgid "Simulation et pévisions de perfomances"
+msgstr ""
+
+#: .\website\templates\service_analysis.html:122
+#: .\website\templates\service_analysis.html:145
+#: .\website\templates\service_dev_tool.html:123
+#: .\website\templates\service_dev_tool.html:146
 msgid ""
 "Analyse des coûts fixes et variables pour identifier les leviers d’économies."
-msgstr ""
-"Analysis of fixed and variable costs to identify savings levers."
+msgstr "Analysis of fixed and variable costs to identify savings levers."
 
-#: .\website\templates\service_analysis.html:119
+#: .\website\templates\service_analysis.html:128
+#: .\website\templates\service_dev_tool.html:129
 msgid ""
 "Propositions de stratégies pour réduire les charges tout en maintenant la "
 "performance."
-msgstr ""
-"Proposed strategies for reducing costs while maintaining "
-"performance."
+msgstr "Proposed strategies for reducing costs while maintaining performance."
 
-#: .\website\templates\service_analysis.html:129
+#: .\website\templates\service_analysis.html:138
+#: .\website\templates\service_dev_tool.html:139
 msgid "Optimisation des stratégies de pricing"
 msgstr "Optimizing pricing strategies"
 
-#: .\website\templates\service_analysis.html:142
+#: .\website\templates\service_analysis.html:151
+#: .\website\templates\service_dev_tool.html:152
 msgid ""
 "Étude de l'élasticité prix-demande pour ajuster les tarifs en fonction du "
 "marché et maximiser les marges."
 msgstr ""
-"Study of price-demand elasticity to adjust tariffs to the "
-"and maximize margins."
+"Study of price-demand elasticity to adjust tariffs to the and maximize "
+"margins."
 
-#: .\website\templates\service_analysis.html:152
-msgid "Gestion proactive des risques fiscaux"
+#: .\website\templates\service_analysis.html:157
+#: .\website\templates\service_dev_tool.html:158
+msgid "Mise à disposition d'un moteur d'un AI Pricing Engine"
+msgstr ""
+
+#: .\website\templates\service_analysis.html:167
+#: .\website\templates\service_dev_tool.html:168
+#, fuzzy
+#| msgid "Gestion proactive des risques fiscaux"
+msgid "Gestion proactive des risques"
 msgstr "Proactive tax risk management"
 
-#: .\website\templates\service_analysis.html:159
-msgid ""
-"Accompagnement sur des sujets complexes tels que l’octroi de mer, la TVA, et "
-"les obligations fiscales spécifiques à la Guadeloupe."
+#: .\website\templates\service_analysis.html:174
+#: .\website\templates\service_dev_tool.html:175
+msgid "Mise en place de scénarios de stress économiques"
 msgstr ""
-"Assistance with complex issues such as dock dues, VAT, and "
-"tax obligations specific to Guadeloupe."
 
-#: .\website\templates\service_analysis.html:165
+#: .\website\templates\service_analysis.html:180
+#: .\website\templates\service_dev_tool.html:181
 msgid ""
-"Scénarios de simulation pour anticiper les impacts financiers des évolutions "
-"réglementaires."
-msgstr "Simulation scenarios to anticipate the financial impact of regulatory "
-"regulatory changes."
+"Evaluation de la capacité de l'entreprise à survivre à des crises historiques"
+msgstr ""
 
-#: .\website\templates\service_analysis.html:179
+#: .\website\templates\service_analysis.html:194
 msgid "plus-value unique face à un comptable traditionnel :"
 msgstr "unique added value compared to a traditional accountant:"
 
-#: .\website\templates\service_analysis.html:180
-#: .\website\templates\service_analysis.html:183
-#: .\website\templates\service_analysis.html:186
-#: .\website\templates\service_analysis.html:204
-#: .\website\templates\service_analysis.html:207
-#: .\website\templates\service_analysis.html:210
-#: .\website\templates\service_analysis.html:213
-#, python-format
-msgid "<h6><strong>{%% trans "
+#: .\website\templates\service_analysis.html:195
+#, fuzzy
+#| msgid "Optimisation de la stratégie "
+msgid "Vision dynamique et stratégique :"
+msgstr "Strategy optimization"
+
+#: .\website\templates\service_analysis.html:198
+#, fuzzy
+#| msgid "Indicateurs couramment utilisés :"
+msgid "Indicateurs sur-mesure :"
+msgstr "Commonly used indicators :"
+
+#: .\website\templates\service_analysis.html:201
+msgid "Simulations et scénarios \\"
 msgstr ""
 
-#: .\website\templates\service_analysis.html:203
-msgid "Valeurs ajoutées pour votre entreprise :"
-msgstr "Added value for your company :"
-
-#: .\website\templates\service_analysis.html:221
+#: .\website\templates\service_analysis.html:213
 msgid "Valeurs ajoutées pour votre entreprise "
 msgstr "Added value for your company"
 
-#: .\website\templates\service_analysis.html:227
+#: .\website\templates\service_analysis.html:219
 msgid "Anticipation des risques financiers"
 msgstr "Anticipating financial risks"
 
-#: .\website\templates\service_analysis.html:244
+#: .\website\templates\service_analysis.html:226
+msgid ""
+"Grâce à des analyses prédictives, vous identifiez les risques avant qu’ils "
+"n’affectent vos performances."
+msgstr ""
+
+#: .\website\templates\service_analysis.html:235
 msgid "Optimisation continue"
 msgstr "Continuous optimization"
 
-#: .\website\templates\service_analysis.html:261
+#: .\website\templates\service_analysis.html:242
+msgid ""
+"Nos recommandations vous aident à maximiser vos marges et à réduire les "
+"inefficacités dans vos processus."
+msgstr ""
+
+#: .\website\templates\service_analysis.html:251
 msgid "Gain de temps"
 msgstr "Time saving"
 
-#: .\website\templates\service_analysis.html:285
+#: .\website\templates\service_analysis.html:258
+msgid ""
+"Libérez-vous des tâches manuelles et concentrez-vous sur votre cœur de "
+"métier grâce à nos outils numériques automatisés."
+msgstr ""
+
+#: .\website\templates\service_analysis.html:274
 msgid ""
 "Nos services sont adaptés aux budgets et besoins spécifiques des TPE/PME "
 "locales."
-msgstr "Our services are tailored to the specific budgets and needs of local "
-"needs."
+msgstr ""
+"Our services are tailored to the specific budgets and needs of local needs."
 
-#: .\website\templates\service_analysis.html:300
+#: .\website\templates\service_analysis.html:289
 msgid "Comment ça fonctionne ?"
 msgstr "How does it work"
 
-#: .\website\templates\service_analysis.html:301
+#: .\website\templates\service_analysis.html:290
 msgid "Étape 1 : Analyse initiale"
 msgstr "Step 1: Initial analysis"
 
-#: .\website\templates\service_analysis.html:302
+#: .\website\templates\service_analysis.html:291
 msgid ""
 "Collecte et étude des données financières disponibles (bilan, factures, flux "
 "de trésorerie)."
-msgstr "Collection and study of available financial data (balance sheet, invoices, "
+msgstr ""
+"Collection and study of available financial data (balance sheet, invoices, "
 "cash flows)."
 
-#: .\website\templates\service_analysis.html:304
+#: .\website\templates\service_analysis.html:293
 msgid "Étape 2 : Construction du tableau de bord"
 msgstr "Step 2: Building the dashboard"
 
-#: .\website\templates\service_analysis.html:305
+#: .\website\templates\service_analysis.html:294
 msgid ""
 "Création d’un tableau de bord personnalisé incluant vos indicateurs clés de "
 "performance (KPI)."
-msgstr 
+msgstr ""
 "Creation of a customized dashboard including your key performance indicators "
 "performance indicators (KPIs)."
 
-#: .\website\templates\service_analysis.html:307
+#: .\website\templates\service_analysis.html:296
 msgid "Étape 3 : Suivi et accompagnement"
 msgstr "Stage 3: Follow-up and support"
 
-#: .\website\templates\service_analysis.html:308
+#: .\website\templates\service_analysis.html:297
 msgid ""
 "Monitoring régulier des performances et ajustements stratégiques pour "
 "atteindre vos objectifs."
-msgstr "Regular performance monitoring and strategic adjustments to achieve yours goals"
+msgstr ""
+"Regular performance monitoring and strategic adjustments to achieve yours "
+"goals"
 
-#: .\website\templates\service_analysis.html:317
-msgid ""
-"Découvrez comment un tableau de bord personnalisé par OptiRisk Analytics "
-"peut transformer vos données en décisions stratégiques. Contactez-nous dès "
-"aujourd’hui pour une consultation gratuite !"
-msgstr "Find out how OptiRisk Analytics tailor-made dashboards"
-"can transform yours data to strategic decisions. Reach out to us for a free consultation as soon as today !"
-
-#: .\website\templates\service_dev_tool.html:20
+#: .\website\templates\service_analysis.html:306
 #, fuzzy
-#| msgid "Construisons votre outil de gestion financière personnalisée"
-msgid "Construisons votre outil bureautique de gestion financière personnalisé"
-msgstr "Let's build your personalized financial management tool"
+#| msgid ""
+#| "Découvrez comment un tableau de bord personnalisé par OptiRisk Analytics "
+#| "peut transformer vos données en décisions stratégiques. Contactez-nous "
+#| "dès aujourd’hui pour une consultation gratuite !"
+msgid ""
+"Découvrez comment un tableau de bord personnalisé par OptiQuant IA peut "
+"transformer vos données en décisions stratégiques. Contactez-nous dès "
+"aujourd’hui pour une consultation gratuite !"
+msgstr ""
+"Find out how OptiRisk Analytics tailor-made dashboardscan transform yours "
+"data to strategic decisions. Reach out to us for a free consultation as soon "
+"as today !"
+
+#: .\website\templates\service_data_management.html:33
+msgid ""
+"Anticipez l’avenir de votre entreprise grâce à l’analyse prédictive de votre "
+"trésorerie et de vos stocks"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:44
+msgid ""
+"Évitez les ruptures, les crises de liquidité et les décisions à l’aveugle."
+msgstr ""
+
+#: .\website\templates\service_data_management.html:46
+msgid ""
+"\n"
+"                            Votre entreprise évolue dans un environnement "
+"incertain : tensions sur les approvisionnements, variations de la demande, "
+"imprévus de trésorerie… Et si vous pouviez anticiper ces événements au lieu "
+"de simplement y réagir ?\n"
+"\n"
+"                            Grâce à notre solution d’intelligence "
+"prédictive, vous bénéficiez d’une vision claire et chiffrée de l’avenir de "
+"votre activité, pour prendre des décisions éclairées avant qu’une situation "
+"devienne critique.                            \n"
+"                            "
+msgstr ""
+
+#: .\website\templates\service_data_management.html:64
+#: .\website\templates\service_dev_tool.html:64
+msgid "Ce que nous faisons pour vous :"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:65
+msgid "révisions dynamiques de trésorerie"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:68
+msgid "Gestion prédictive des stocks & modélisation de la chaîne logistique"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:69
+msgid ""
+"Nous modélisons votre supply chain, vos historiques de ventes, vos délais "
+"fournisseurs… pour :"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:70
+msgid "Optimiser vos réapprovisionnements"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:71
+msgid "Éviter les ruptures ou surstocks"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:72
+msgid "Réduire vos coûts liés à l'immobilisation de stock"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:74
+#, fuzzy
+#| msgid "Optimisation de la stratégie "
+msgid "Simulation de scénarios stratégiques"
+msgstr "Strategy optimization"
+
+#: .\website\templates\service_data_management.html:75
+msgid ""
+"\n"
+"                                Nous vous aidons à répondre à des questions "
+"concrètes :                                \n"
+"                                "
+msgstr ""
+
+#: .\website\templates\service_data_management.html:78
+msgid "Que se passe-t-il si un fournisseur clé fait défaut ?"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:79
+msgid "Si la demande double ?"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:80
+msgid "Si un client majeur reporte ses paiements ?"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:82
+msgid "Pricing dynamique & indicateurs de pilotage"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:83
+msgid ""
+"Nous intégrons également des modules d’ajustement de vos prix en fonction de "
+"la demande, du contexte concurrentiel ou de vos marges cibles, pour "
+"maximiser vos revenus sans compromettre votre trésorerie."
+msgstr ""
+
+#: .\website\templates\service_data_management.html:94
+msgid "tableau de bord de pilotage prédictif"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:101
+msgid "visualisez en temps réel vos projections de cash et de stocks"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:111
+msgid "scénarios pré-paramétrés"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:118
+#, fuzzy
+#| msgid "Optimisation de la stratégie "
+msgid " simulation des choix stratégiques"
+msgstr "Strategy optimization"
+
+#: .\website\templates\service_data_management.html:128
+msgid "modélisation personnalisée"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:135
+msgid ""
+"Une modélisation personnalisée de votre activité, à l’aide de techniques "
+"d’analyse quantitative avancée"
+msgstr ""
+
+#: .\website\templates\service_data_management.html:147
+msgid ""
+"\n"
+"                        Les livrables concrets de cette offre\n"
+"                        Un tableau de bord de pilotage prédictif : "
+"visualisez en temps réel vos projections de cash et de stocks\n"
+"\n"
+"                        Des scénarios pré-paramétrés pour simuler des choix "
+"stratégiques\n"
+"\n"
+"                        Une modélisation personnalisée de votre activité, à "
+"l’aide de techniques d’analyse quantitative avancée   \n"
+"                        "
+msgstr ""
+
+#: .\website\templates\service_data_management.html:158
+msgid ""
+"\n"
+"                    Une intelligence sur-mesure, au service de votre "
+"entreprise\n"
+"                    “Grâce à notre nouveau dashboard, nous avons anticipé "
+"une rupture de stock critique 3 semaines à l’avance, et réorganisé notre "
+"approvisionnement sans perte de chiffre d’affaires.”               \n"
+"                    "
+msgstr ""
+
+#: .\website\templates\service_data_management.html:165
+msgid ""
+"\n"
+"                    À qui s’adresse cette offre ?\n"
+"                    TPE/PME dans les secteurs à forte variation d’activité "
+"(distribution, agro, industrie, etc.)\n"
+"\n"
+"                    Dirigeants souhaitant une vision proactive de leur "
+"entreprise\n"
+"\n"
+"                    Responsables financiers et logistiques voulant sécuriser "
+"l’opérationnel\n"
+"                    "
+msgstr ""
+
+#: .\website\templates\service_dev_tool.html:32
+msgid "Automatisez vos tâches chronophages avec des outils d’IA sur-mesure"
+msgstr ""
+
+#: .\website\templates\service_dev_tool.html:43
+msgid "Libérez du temps. Réduisez les erreurs. Accélérez vos performances."
+msgstr ""
+
+#: .\website\templates\service_dev_tool.html:45
+msgid ""
+"\n"
+"                            Vous passez trop de temps sur des tâches "
+"répétitives ? Vos équipes s’essoufflent à faire du reporting manuel ou des "
+"manipulations de fichiers sans réelle valeur ajoutée ?\n"
+"                            Notre solution d’automatisation intelligente "
+"transforme votre manière de travailler.\n"
+"\n"
+"                            Nous concevons des outils sur-mesure basés sur "
+"l’automatisation bureautique et l’intelligence artificielle, parfaitement "
+"intégrés à vos processus métier.                            \n"
+"                            "
+msgstr ""
+
+#: .\website\templates\service_dev_tool.html:65
+msgid "Audit ciblé de vos processus actuels"
+msgstr ""
+
+#: .\website\templates\service_dev_tool.html:66
+msgid ""
+"Nous identifions les tâches répétitives, les frictions, les pertes de temps "
+"et les potentiels d’automatisation. Objectif : repérer tout ce qui peut être "
+"automatisé sans remettre en question votre fonctionnement global."
+msgstr ""
+
+#: .\website\templates\service_dev_tool.html:67
+msgid "Développement de solutions d’automatisation"
+msgstr ""
+
+#: .\website\templates\service_dev_tool.html:68
+msgid ""
+"Selon vos besoins, nous mettons en place des agents d’IA ou des outils "
+"métiers intelligents qui se chargent de :"
+msgstr ""
+
+#: .\website\templates\service_dev_tool.html:69
+msgid "Faire des rapprochements bancaires automatiquement"
+msgstr ""
+
+#: .\website\templates\service_dev_tool.html:70
+msgid "Générer des rapports de flux hebdomadaires"
+msgstr ""
+
+#: .\website\templates\service_dev_tool.html:71
+msgid "Organiser, classer et répondre à des e-mails"
+msgstr ""
+
+#: .\website\templates\service_dev_tool.html:72
+msgid "Produire ou agréger des documents spécifiques en quelques clics"
+msgstr ""
+
+#: .\website\templates\service_dev_tool.html:74
+msgid "Mesure du retour sur investissement"
+msgstr ""
+
+#: .\website\templates\service_dev_tool.html:75
+msgid ""
+"\n"
+"                                Nous ne vous laissons pas seuls : une fois "
+"l’outil en place, nous mesurons les gains concrets (temps, argent, réduction "
+"d’erreurs) pour vous permettre de quantifier la valeur "
+"ajoutée.                                \n"
+"                                "
+msgstr ""
+
+#: .\website\templates\services.html:25
+#, fuzzy
+#| msgid "vos besoins"
+msgid "Nos prestations"
+msgstr "your needs"
+
+#: .\website\templates\services.html:26
+msgid ""
+"Découvrez nos trois offres sur-mesure, conçues pour optimiser la performance "
+"de votre entreprise. Chaque solution est adaptée à vos besoins spécifiques "
+"et vous garantit un livrable concret pour améliorer votre efficacité "
+"opérationnelle."
+msgstr ""
+
+#~ msgid "OptiRisk Analytics"
+#~ msgstr "OptiRisk Analytics"
+
+#~ msgid "Saisonnalité"
+#~ msgstr "Seasonality"
+
+#~ msgid "Granularité"
+#~ msgstr "Granularity"
+
+#~ msgid "Pilotage"
+#~ msgstr "Steering"
+
+#~ msgid "Construisons votre bilan d’activité"
+#~ msgstr "Let’s build your activity report"
+
+#~ msgid ""
+#~ "Etablissons ensemble un état des lieux de la performance de votre "
+#~ "entreprise"
+#~ msgstr "Let's establish together an inventory of your company's performance"
+
+#~ msgid "Une revue régulière de vos scénarios de gains et pertes potentiels"
+#~ msgstr "A regular review of your potential gain and loss scenarios"
+
+#~ msgid ""
+#~ "Pilotons et surveillons régulièrement l'atteinte de vos objectifs grace à "
+#~ "l'IA"
+#~ msgstr ""
+#~ "Let's manage and regularly monitor the achievement of your objectives "
+#~ "thanks to AI"
+
+#, fuzzy
+#~| msgid "Construisons votre outil de gestion financière personnalisée"
+#~ msgid "Construisons votre outil de gestion financière personnalisé"
+#~ msgstr "Let's build your personalized financial management tool"
+
+#~ msgid ""
+#~ "Qu'ils soient bureautique, sous Excel sur le web, sous mobile ou "
+#~ "intégrant une intelligence artificielle, nous vous accompagnons dans le "
+#~ "développemment de vos outils fait maison pour qu'ils correspondent a "
+#~ msgstr ""
+#~ "Whether they are office, in Excel on the web, in mobile or integrating "
+#~ "artificial intelligence, we support you in the developmentof your "
+#~ "homemade tools so that they correspond to"
+
+#~ msgid ""
+#~ "Construisons l'architecture de collecte et gestion des données interne de "
+#~ "votre entreprise"
+#~ msgstr ""
+#~ "Let's build together your company internal data management and data "
+#~ "collection architecture"
+
+#~ msgid ""
+#~ "Etablissons ensemble une architecture sécurisé pour la gestion de vos "
+#~ "données"
+#~ msgstr ""
+#~ "Let's establish together a secure architecture for the management of your "
+#~ "data"
+
+#~ msgid "Installation d’une base de données interne (Sql serveur, …)"
+#~ msgstr "Internal database installation (Sql server, ... )"
+
+#~ msgid "Interface Excel"
+#~ msgstr "Excel interface"
+
+#~ msgid "Outil d’intégration d’inputs "
+#~ msgstr "Input integration tool"
+
+#~ msgid "EN CONSTRUCTION"
+#~ msgstr "BUILDING"
+
+#~ msgid "Gestion des risques et optimisation de vos performances financières"
+#~ msgstr "Managing risk and optimizing your financial performance"
+
+#~ msgid "Optimisation des coûts"
+#~ msgstr "Optimizing costs"
+
+#~ msgid ""
+#~ "Accompagnement sur des sujets complexes tels que l’octroi de mer, la TVA, "
+#~ "et les obligations fiscales spécifiques à la Guadeloupe."
+#~ msgstr ""
+#~ "Assistance with complex issues such as dock dues, VAT, and tax "
+#~ "obligations specific to Guadeloupe."
+
+#~ msgid ""
+#~ "Scénarios de simulation pour anticiper les impacts financiers des "
+#~ "évolutions réglementaires."
+#~ msgstr ""
+#~ "Simulation scenarios to anticipate the financial impact of regulatory "
+#~ "regulatory changes."
+
+#~ msgid "Valeurs ajoutées pour votre entreprise :"
+#~ msgstr "Added value for your company :"
+
+#, fuzzy
+#~| msgid "Construisons votre outil de gestion financière personnalisée"
+#~ msgid ""
+#~ "Construisons votre outil bureautique de gestion financière personnalisé"
+#~ msgstr "Let's build your personalized financial management tool"

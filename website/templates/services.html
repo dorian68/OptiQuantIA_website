@@ -22,7 +22,8 @@
         <!-- PRICING -->
         <div class="container-fluid my-5">
           <div class="text-container">
-            <h2 class="text-center mt-5"style="color: #2E86C1;"><strong>{% trans "Bilan d’activité et analyse de performance" %}</strong></h2>
+            <h2 class="text-center mt-5"style="color: #2E86C1;"><strong>{% trans "Nos prestations" %}</strong></h2>
+            <!--<p>{% trans "Découvrez nos trois offres sur-mesure, conçues pour optimiser la performance de votre entreprise. Chaque solution est adaptée à vos besoins spécifiques et vous garantit un livrable concret pour améliorer votre efficacité opérationnelle."%}</p>-->
           </div>
         </div>
         <div class="container">
@@ -32,103 +33,124 @@
             <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
                 <div class="col col-lg-4">
                   <div class="card h-100 shadow-lg p-3 mb-5 bg-white" style="border-radius: 7%;">
-                    <h5 class="card-header text-center">BASIC</h5>
+                    <h5 class="card-header text-center">{% trans "Pilotage de performances" %}</h5>
                     <div class="card-body">   
                       <p class="card-text">
                       <!--PRESTATIONS BASIQUE-->
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
-                          Analyse des flux de trésorie, de bilan et recommandations pour améliorer la gestion de la trésorie
+                          {% trans "Rapport décisionnel" %}
                         </label>
                       </div>
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
-                          Analyse approfondie de la rentabilité et des ratios pertinents à différentes granularités                  </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                        Optimisation des couts fixes et variables
+                          {% trans "Detection des pertes" %}                 
                         </label>
                       </div>
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
-                        Optimisation des stratégies de pricing
+                          {% trans "gestion des risques de l'activité" %}
                         </label>
                       </div>
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
-                        Gestion des risques liés à la reglementation, aux conditions climatiques et sociales
+                          {% trans "Alertes et recommandations intelligentes" %}
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          {% trans "Simulations et prévisions de performances" %}
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          {% trans "Gestion des prix et simulations de stratégies de prix" %}
                         </label>
                       </div>
                       <!--FIN PRESTATIONS BASIQUE-->
                       </p>
                     </div>
                     <div class="card-footer text-center">
-                      <a href="#" class="btn btn-primary">Continuer avec le tarif basic</a>
+                      <a href="#" class="btn btn-primary">{% trans "Continuer avec cette l'offre pilotage de performances" %}</a>
                     </div>
                   </div>
                 </div>
                 <div class="col col-lg-4">
                   <div class="card h-100 shadow-lg p-3 mb-5 bg-white" style="border-radius: 7%;">
-                    <h5 class="card-header text-center">INTERMEDIARY</h5>
+                    <h5 class="card-header text-center">{% trans "Automatisation & IA dans les process" %}</h5>
                     <div class="card-body" text-align="left">
                       <p class="card-text">
                         <div class="form-check">
                           <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                           <label class="form-check-label" for="flexCheckChecked">
-                            Impact environnemental, social et de gouvernance sur l’activité de la société
+                            {% trans "Audit des process en places à faible valeur ajoutée" %}
                           </label>
                         </div>
                         <div class="form-check">
                           <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                           <label class="form-check-label" for="flexCheckChecked">
-                            Analyse sectorielle 
-                          </label>
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                          <label class="form-check-label" for="flexCheckChecked">
-                            Listing + modélisation de l'impact des principaux risques financiers
+                            {% trans "Suivi du ROI de l'automatisation" %}
                           </label>
                         </div>
                       </p>
                       </div>    
                     
                     <div class="card-footer text-center">
-                      <a href="#" class="btn btn-primary">Continuer avec le tarif intermediaire</a>
+                      <a href="#" class="btn btn-primary">{% trans "Continuer avec l'offre automatisation et IA" %}</a>
                     </div>
                   </div>
                 </div>
                 <div class="col col-lg-4">
                     <div class="card h-100 shadow-lg p-3 mb-5 bg-white" style="border-radius: 7%;">
-                      <h5 class="card-header text-center">PREMIUM</h5>
+                      <h5 class="card-header text-center">{% trans "Intelligence prédictive cash et stock" %}</h5>
                       <div class="card-body" text-align="left">
                       <p class="card-text">
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                         <label class="form-check-label" for="flexCheckChecked">
-                          Rapport détaillé et approfondi incluant des scénario de crises ( stress tests ) afin de simuler l’impact négatif sur la trésorie, et estimation de la capacité de l’entreprise à survivre à une crise financière, catastrophe climatique, crise sociale
+                          {% trans "Prévision dynamique de trésorerie ( flux entrant/sortant, stress test)" %} 
                         </label>
                       </div>
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked disabled>
                         <label class="form-check-label" for="flexCheckChecked">
-                          Services prédictifs intelligence artificielle
-                            o	Analyse de sentiments 
-                            o	Prédiction des besoins en trésorerie 
-
+                          {% trans "Gestion prédictive de stock" %}
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked disabled>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          {% trans "Simulation de scénarios (crise, opportunité, BAU)" %}
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked disabled>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          {% trans "La supply-chain quantitative pour la gestion des stocks" %}
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked disabled>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          {% trans "Pricing dynamique" %}
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked disabled>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          {% trans "Simulation de stratégies de prix" %}
                         </label>
                       </div>
                     </p>
-
                     </div>
                     <div class="card-footer text-center">
-                      <a href="#" class="btn btn-primary">Continuer avec le tarif premium</a>
+                      <a href="#" class="btn btn-primary">{% trans "Continuer avec l'offre d'intelligence prédictive" %}</a>
                     </div>
                       </div>
                     </div>

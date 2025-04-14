@@ -17,15 +17,196 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-        <section>
-            <div class="container" style="height: 80vh;margin-top: 50px;">
-                <div class="row m-5">
-                <h3 class="tb-5"><strong>{% trans "Construisons votre outil bureautique de gestion financière personnalisé" %}</strong></h3> 
+    <section>
+        <style>
+            @media (max-width: 768px) {
+                .custom-spacing .col{
+                    margin-bottom: 30px;
+                }
+            }
+        </style>
+
+        <!--TITLE-->
+        <div class="container-fluid my-5">
+            <div class="text-container">
+                <h2 class="row mt-5 text-center" style="color: #2E86C1;"><strong>{% trans "Automatisez vos tâches chronophages avec des outils d’IA sur-mesure" %}</strong></h2> 
+            </div>
+        </div>
+        <!--CONTAINER-->
+        <div class="container mb-4">
+                <!--FIRST ROW-->
+                <div class="row justify-content-center align-items-center vh-90 row-cols-1 row-cols-lg-2 my-5 custom-spacing">
+                    <div class="col mx-auto">
+                        <img src="../static/outil_bureautique.jpg" class="img-fluid rounded-pill" style="width:100%"></img>
+                    </div>
+                    <div class="col d-flex flex-column justify-content-center align-items-center mx-auto">
+                        <h4><strong>{% trans "Libérez du temps. Réduisez les erreurs. Accélérez vos performances." %}</strong></h4>
+                        <p>
+                            {% blocktrans %}
+                            Vous passez trop de temps sur des tâches répétitives ? Vos équipes s’essoufflent à faire du reporting manuel ou des manipulations de fichiers sans réelle valeur ajoutée ?
+                            Notre solution d’automatisation intelligente transforme votre manière de travailler.
+
+                            Nous concevons des outils sur-mesure basés sur l’automatisation bureautique et l’intelligence artificielle, parfaitement intégrés à vos processus métier.                            
+                            {% endblocktrans %}
+                        </p>
+                    </div>
+                </div>
+                <!--END FIRST ROW-->
+
+                <!--SAPCING-->
+                <div class="row mt-4">
                 
-        
+                </div>
+
+                <!--SECOND ROW-->
+                <div class="row justify-content-center align-items-center vh-90 row-cols-1 row-cols-lg-2 mb-5 justify-content-start">
+                    <div class="col d-flex flex-column justify-content-center align-items-center mx-auto">
+                        <ul><h5><strong>{% trans "Ce que nous faisons pour vous :" %}</strong></h5>
+                            <li><h6><strong>{% trans "Audit ciblé de vos processus actuels" %}</strong></h6>
+                                {% trans "Nous identifions les tâches répétitives, les frictions, les pertes de temps et les potentiels d’automatisation. Objectif : repérer tout ce qui peut être automatisé sans remettre en question votre fonctionnement global." %}                           </li>
+                            <li><h6><strong>{% trans "Développement de solutions d’automatisation" %}</strong></h6>
+                                {% trans "Selon vos besoins, nous mettons en place des agents d’IA ou des outils métiers intelligents qui se chargent de :" %}
+                                <ul>{% trans "Faire des rapprochements bancaires automatiquement" %}</ul>
+                                <ul>{% trans "Générer des rapports de flux hebdomadaires" %}</ul>
+                                <ul>{% trans "Organiser, classer et répondre à des e-mails" %}</ul>
+                                <ul>{% trans "Produire ou agréger des documents spécifiques en quelques clics" %}</ul>
+                            </li>
+                            <li><h6><strong>{% trans "Mesure du retour sur investissement" %}</strong></h6>
+                                {% blocktrans %}
+                                Nous ne vous laissons pas seuls : une fois l’outil en place, nous mesurons les gains concrets (temps, argent, réduction d’erreurs) pour vous permettre de quantifier la valeur ajoutée.                                
+                                {% endblocktrans %}
+                            </li>
+                        </ul>  
+                    </div>
+                    <div class="col mx-auto">
+                        <img src="../static/modern_tool.jpg" class="img-fluid rounded-pill" style="width:100%"></img>
+                    </div>
+                </div>
+
+                <div class="row row-cols-1 row-cols-lg-4 mb-5 custom-spacing">
+                    <div class="col mx-auto">
+                        <div class="card h-100 shadow-lg p-3 mb-5 bg-white" style="border-radius: 7%;">
+                            <h5 class="card-header text-center">{% trans "Analyse de rentabilité" %}</h5>
+                            <div class="card-body">   
+                                <p class="card-text">
+                                <!--PRESTATIONS BASIQUE-->
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {% trans "Évaluation précise des marges et de la rentabilité par produit et par client." %}
+                                </label>
+                                </div>
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {% trans "Identification des produits et services les plus rentables pour une allocation optimale des ressources." %}               </label>
+                                </div>
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {% trans "Détection des pertes ( marges dégradés, couts récurents, inefficiences de stocks)" %}               </label>
+                                </div>
+                                <!--FIN PRESTATIONS BASIQUE-->
+                                </p>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="col mx-auto">
+                        <div class="card h-100 shadow-lg p-3 mb-5 bg-white" style="border-radius: 7%;">
+                            <h5 class="card-header text-center">{% trans "Simulation et pévisions de perfomances" %}</h5>
+                            <div class="card-body">   
+                                <p class="card-text">
+                                <!--PRESTATIONS BASIQUE-->
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {% trans "Analyse des coûts fixes et variables pour identifier les leviers d’économies." %}
+                                </label>
+                                </div>
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {% trans "Propositions de stratégies pour réduire les charges tout en maintenant la performance." %}
+                                </label>
+                                </div>
+                                <!--FIN PRESTATIONS BASIQUE-->
+                                </p>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="col mx-auto">
+                        <div class="card h-100 shadow-lg p-3 mb-5 bg-white" style="border-radius: 7%;">
+                            <h5 class="card-header text-center">{% trans "Optimisation des stratégies de pricing" %}</h5>
+                            <div class="card-body">   
+                                <p class="card-text">
+                                <!--PRESTATIONS BASIQUE-->
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {% trans "Analyse des coûts fixes et variables pour identifier les leviers d’économies." %}
+                                </label>
+                                </div>
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {% trans "Étude de l'élasticité prix-demande pour ajuster les tarifs en fonction du marché et maximiser les marges." %}
+                                </label>
+                                </div>
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {% trans "Mise à disposition d'un moteur d'un AI Pricing Engine" %}
+                                </label>
+                                </div>
+                                <!--FIN PRESTATIONS BASIQUE-->
+                                </p>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="col mx-auto">
+                        <div class="card h-100 shadow-lg p-3 mb-5 bg-white" style="border-radius: 7%;">
+                            <h5 class="card-header text-center">{% trans "Gestion proactive des risques" %}</h5>
+                            <div class="card-body">   
+                                <p class="card-text">
+                                <!--PRESTATIONS BASIQUE-->
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {% trans "Mise en place de scénarios de stress économiques" %}
+                                </label>
+                                </div>
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {% trans "Evaluation de la capacité de l'entreprise à survivre à des crises historiques" %}
+                                </label>
+                                </div>
+                                <!--FIN PRESTATIONS BASIQUE-->
+                                </p>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                <!--END SECOND ROW-->
+                <!--THIRD ROW-->
+                <div class="row row-cols-1 row-cols-lg-4 mb-5 custom-spacing">
+                    Vos livrables concrets
+                    Un ou plusieurs outils automatisés sur-mesure, déployés dans votre environnement (Excel, Outlook, Google Workspace, ou via API/API No-Code).
+
+                    Un plan de digitalisation personnalisé, avec des recommandations pour aller encore plus loin si besoin.
+                </div>
+
+                <div class="row row-cols-1 row-cols-lg-4 mb-5 custom-spacing">
+                    Un exemple de gain concret
+                    “Chaque mois, l’outil évite 20h de reporting manuel à notre équipe, soit 700 € d’économies, avec un risque d’erreur divisé par 3.”
+                </div>
+
+                <div class="row mb-5">
+                </div>
+                <!--END FIFTH ROW-->
         </div>
-        </div>
-        </section>
+        <!--END CONTAINER-->
+    </section>
 </body>
 </html>
 

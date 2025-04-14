@@ -18,15 +18,167 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-        <section>
-            <div class="container" style="height: 80vh;margin-top: 50px;">
-                <div class="row m-5">
-                <h3 class="tb-5"><strong>{% trans "Construisons l'architecture de collecte et gestion des données interne de votre entreprise" %}</strong></h3> 
+    <section>
+        <style>
+            @media (max-width: 768px) {
+                .custom-spacing .col{
+                    margin-bottom: 30px;
+                }
+            }
+        </style>
+
+        <!--TITLE-->
+        <div class="container-fluid my-5">
+            <div class="text-container">
+                <h2 class="row mt-5 text-center" style="color: #2E86C1;"><strong>{% trans "Anticipez l’avenir de votre entreprise grâce à l’analyse prédictive de votre trésorerie et de vos stocks" %}</strong></h2> 
+            </div>
+        </div>
+        <!--CONTAINER-->
+        <div class="container mb-4">
+                <!--FIRST ROW-->
+                <div class="row justify-content-center align-items-center vh-90 row-cols-1 row-cols-lg-2 my-5 custom-spacing">
+                    <div class="col mx-auto">
+                        <img src="../static/outil_bureautique.jpg" class="img-fluid rounded-pill" style="width:100%"></img>
+                    </div>
+                    <div class="col d-flex flex-column justify-content-center align-items-center mx-auto">
+                        <h4><strong>{% trans "Évitez les ruptures, les crises de liquidité et les décisions à l’aveugle." %}</strong></h4>
+                        <p>
+                            {% blocktrans %}
+                            Votre entreprise évolue dans un environnement incertain : tensions sur les approvisionnements, variations de la demande, imprévus de trésorerie… Et si vous pouviez anticiper ces événements au lieu de simplement y réagir ?
+
+                            Grâce à notre solution d’intelligence prédictive, vous bénéficiez d’une vision claire et chiffrée de l’avenir de votre activité, pour prendre des décisions éclairées avant qu’une situation devienne critique.                            
+                            {% endblocktrans %}
+                        </p>
+                    </div>
+                </div>
+                <!--END FIRST ROW-->
+
+                <!--SAPCING-->
+                <div class="row mt-4">
                 
-        
+                </div>
+
+                <!--SECOND ROW-->
+                <div class="row justify-content-center align-items-center vh-90 row-cols-1 row-cols-lg-2 mb-5 justify-content-start">
+                    <div class="col d-flex flex-column justify-content-center align-items-center mx-auto">
+                        <ul><h5><strong>{% trans "Ce que nous faisons pour vous :" %}</strong></h5>
+                            <li><h6><strong>{% trans "révisions dynamiques de trésorerie" %}</strong></h6>
+                                Nous construisons un modèle personnalisé de cash-flow prévisionnel, qui prend en compte vos flux passés, vos échéances futures, et vos seuils de sécurité.
+                                    → Résultat : vous savez quand et pourquoi votre trésorerie pourrait devenir tendue, et vous êtes alerté à temps.</li>
+                            <li><h6><strong>{% trans "Gestion prédictive des stocks & modélisation de la chaîne logistique" %}</strong></h6>
+                                {% trans "Nous modélisons votre supply chain, vos historiques de ventes, vos délais fournisseurs… pour :" %}
+                                <ul>{% trans "Optimiser vos réapprovisionnements" %}</ul>
+                                <ul>{% trans "Éviter les ruptures ou surstocks" %}</ul>
+                                <ul>{% trans "Réduire vos coûts liés à l'immobilisation de stock" %}</ul>
+                            </li>
+                            <li><h6><strong>{% trans "Simulation de scénarios stratégiques" %}</strong></h6>
+                                {% blocktrans %}
+                                Nous vous aidons à répondre à des questions concrètes :                                
+                                {% endblocktrans %}
+                                <ul>{% trans "Que se passe-t-il si un fournisseur clé fait défaut ?" %}</ul>
+                                <ul>{% trans "Si la demande double ?" %}</ul>
+                                <ul>{% trans "Si un client majeur reporte ses paiements ?" %}</ul>
+                            </li>
+                            <li>{% trans "Pricing dynamique & indicateurs de pilotage" %}
+                                {% trans "Nous intégrons également des modules d’ajustement de vos prix en fonction de la demande, du contexte concurrentiel ou de vos marges cibles, pour maximiser vos revenus sans compromettre votre trésorerie." %}</li>
+                        </ul>  
+                    </div>
+                    <div class="col mx-auto">
+                        <img src="../static/modern_tool.jpg" class="img-fluid rounded-pill" style="width:100%"></img>
+                    </div>
+                </div>
+
+                <div class="row row-cols-1 row-cols-lg-4 mb-5 custom-spacing">
+                    <div class="col mx-auto">
+                        <div class="card h-100 shadow-lg p-3 mb-5 bg-white" style="border-radius: 7%;">
+                            <h5 class="card-header text-center">{% trans "tableau de bord de pilotage prédictif" %}</h5>
+                            <div class="card-body">   
+                                <p class="card-text">
+                                <!--PRESTATIONS BASIQUE-->
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {% trans "visualisez en temps réel vos projections de cash et de stocks" %}
+                                </label>
+                                </div>
+                                <!--FIN PRESTATIONS BASIQUE-->
+                                </p>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="col mx-auto">
+                        <div class="card h-100 shadow-lg p-3 mb-5 bg-white" style="border-radius: 7%;">
+                            <h5 class="card-header text-center">{% trans "scénarios pré-paramétrés" %}</h5>
+                            <div class="card-body">   
+                                <p class="card-text">
+                                <!--PRESTATIONS BASIQUE-->
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {% trans " simulation des choix stratégiques" %}
+                                </label>
+                                </div>
+                                <!--FIN PRESTATIONS BASIQUE-->
+                                </p>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="col mx-auto">
+                        <div class="card h-100 shadow-lg p-3 mb-5 bg-white" style="border-radius: 7%;">
+                            <h5 class="card-header text-center">{% trans "modélisation personnalisée" %}</h5>
+                            <div class="card-body">   
+                                <p class="card-text">
+                                <!--PRESTATIONS BASIQUE-->
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    {% trans "Une modélisation personnalisée de votre activité, à l’aide de techniques d’analyse quantitative avancée" %}
+                                </label>
+                                </div>
+                                <!--FIN PRESTATIONS BASIQUE-->
+                                </p>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                <!--END SECOND ROW-->
+                <!--THIRD ROW-->
+                <div class="row row-cols-1 row-cols-lg-4 mb-5 custom-spacing">
+                        {% blocktrans %}
+                        Les livrables concrets de cette offre
+                        Un tableau de bord de pilotage prédictif : visualisez en temps réel vos projections de cash et de stocks
+
+                        Des scénarios pré-paramétrés pour simuler des choix stratégiques
+
+                        Une modélisation personnalisée de votre activité, à l’aide de techniques d’analyse quantitative avancée   
+                        {% endblocktrans %}             
+                    </div>
+
+                <div class="row row-cols-1 row-cols-lg-4 mb-5 custom-spacing">
+                    {% blocktrans %}
+                    Une intelligence sur-mesure, au service de votre entreprise
+                    “Grâce à notre nouveau dashboard, nous avons anticipé une rupture de stock critique 3 semaines à l’avance, et réorganisé notre approvisionnement sans perte de chiffre d’affaires.”               
+                    {% endblocktrans %}
+                </div>
+
+                <div class="row row-cols-1 row-cols-lg-4 mb-5 custom-spacing">
+                    {% blocktrans %}
+                    À qui s’adresse cette offre ?
+                    TPE/PME dans les secteurs à forte variation d’activité (distribution, agro, industrie, etc.)
+
+                    Dirigeants souhaitant une vision proactive de leur entreprise
+
+                    Responsables financiers et logistiques voulant sécuriser l’opérationnel
+                    {% endblocktrans %}                
+                    </div>
+
+    
+                <div class="row mb-5">
+                </div>
+                <!--END FIFTH ROW-->
         </div>
-        </div>
-        </section>
+        <!--END CONTAINER-->
+    </section>
 </body>
 </html>
 

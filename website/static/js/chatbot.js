@@ -13,7 +13,6 @@ function getCookie(name) {
     return cookieValue;
 }
 
-
 (function () {
     console.log("Chatbot script chargé !");
 
@@ -21,15 +20,34 @@ function getCookie(name) {
     chatbotContainer.style.position = "fixed";
     chatbotContainer.style.bottom = "20px";
     chatbotContainer.style.right = "20px";
-    chatbotContainer.style.width = "300px";
-    chatbotContainer.style.height = "400px";
+    chatbotContainer.style.width = "400px";
+    chatbotContainer.style.height = "600px";
+    chatbotContainer.style.minWidth = "250px";
+    chatbotContainer.style.minHeight = "300px";
+    chatbotContainer.style.resize = "both";
+    chatbotContainer.style.overflow = "hidden";  // important !
     chatbotContainer.style.background = "#f8f9fa";
     chatbotContainer.style.borderRadius = "10px";
     chatbotContainer.style.boxShadow = "0px 0px 10px rgba(0,0,0,0.1)";
-    chatbotContainer.style.display = "none"; 
-    chatbotContainer.style.flexDirection = "column";
-    chatbotContainer.style.overflow = "hidden";
+    chatbotContainer.style.display = "none";  // ne pas utiliser "flex" ici !
     chatbotContainer.style.fontFamily = "Arial, sans-serif";
+    chatbotContainer.style.boxSizing = "border-box";
+    
+    // ➕ Conteneur interne flex
+    let chatbotContent = document.createElement("div");
+    chatbotContent.style.display = "flex";
+    chatbotContent.style.flexDirection = "column";
+    chatbotContent.style.height = "100%";
+    chatbotContent.style.boxSizing = "border-box";
+    
+    // Ajout des composants dans le conteneur flex interne
+    chatbotContent.appendChild(chatHeader);
+    chatbotContent.appendChild(chatBody);
+    chatbotContent.appendChild(chatInputContainer);
+    
+    // Puis on l’ajoute dans le conteneur principal
+    chatbotContainer.appendChild(chatbotContent);
+    
 
     let chatHeader = document.createElement("div");
     chatHeader.style.background = "#007bff";
@@ -121,7 +139,8 @@ function getCookie(name) {
 
         fetch("/chatbot/", {
             method: "POST",
-            headers: { "Content-Type": "application/json",
+            headers: {
+                "Content-Type": "application/json",
                 "X-CSRFToken": getCookie("csrftoken")
             },
             body: JSON.stringify({ message: userText })
@@ -131,13 +150,12 @@ function getCookie(name) {
                 console.log(response);
                 throw new Error("Réponse serveur non valide : " + response.status);
             }
-            return response.json();  // ✅ Retourne les données JSON
+            return response.json();
         })
         .then(data => {
-            console.log("Réponse du bot :", data); // 🔍 Vérifie la structure de data
+            console.log("Réponse du bot :", data);
             if (data.reply) {
-                botMessage.innerText = "Bot : " + data.reply; // ✅ Utilise data.reply
-                console.log(data);
+                botMessage.innerText = "Bot : " + data.reply;
             } else {
                 botMessage.innerText = "Bot : Erreur dans la réponse du serveur";
                 console.error("Réponse invalide :", data);
@@ -148,7 +166,6 @@ function getCookie(name) {
             botMessage.innerText = "Bot : Erreur de connexion";
             console.error("Erreur :", error);
         });
-        
     };
 
     console.log("Chatbot script chargé --- END!");
